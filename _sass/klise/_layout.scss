@@ -20,6 +20,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  
+  @include media-query($on-mobile) {
+    width: fit-content;
+  }
 
   a#mode {
     float: left;
