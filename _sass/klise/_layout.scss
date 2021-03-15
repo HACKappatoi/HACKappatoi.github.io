@@ -19,10 +19,10 @@
   // center menu
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  
+  width: fit-content;
   @include media-query($on-mobile) {
-    width: fit-content;
+    
+    width: 100%;
   }
 
   a#mode {
