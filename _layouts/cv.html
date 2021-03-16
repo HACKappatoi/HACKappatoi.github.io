@@ -1,0 +1,129 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en" class="" style="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>{{ page.nome }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="BreezyCV - Resume / CV / vCard Template">
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio">
+    <meta name="author" content="lmpixels">
+
+
+
+    <link rel="stylesheet" href="/assets/css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/cv.css" type="text/css">
+    <script src="https://kit.fontawesome.com/7d10589d75.js" crossorigin="anonymous"></script>
+    
+</head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader" style="display: none;">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div class="page">
+      <div class="page-content">
+
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="{{page.profile_image}}" alt="{{ page.nome }} profile image">
+              </div>
+              <div class="header-titles">
+                <h2>{{ page.nome }}</h2>
+                <h4>{{ page.nick }}</h4>
+              </div>
+            </div>
+
+
+
+            <div class="header-buttons">
+              <a href="/about/" target="_blank" class="btn btn-primary"> <i class="fas fa-chevron-left"></i>  Back</a>
+
+              {% if page.cv_file %}
+                <a href="{{page.cv_file}}" target="_blank" class="btn btn-primary">Download CV</a>
+              {% endif %}
+              
+            </div>
+
+          </header>
+
+
+
+          <div class="content-area">
+            <div class="animated-sections">
+
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section start-page ps section-active" data-ps-id="e91cc8f7-f253-a9a7-b2b9-ead062b7899a">
+
+                <div class="page-title">
+                  <h2>About <span>Me</span></h2>
+                </div>
+
+                <div class="section-content">
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <p>{{page.bio}}</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+                      {% include info_list.html %}
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+
+                <div class="section-content">
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      {% include education_timeline.html %}
+                    
+
+                      <div class="white-space-50"></div>
+                      
+                      {% include experience_timeline.html %}
+
+                    </div>
+
+                    <!-- Skills & Certificates -->
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="white-space-10"></div>
+
+                      <!-- Coding Skills -->
+                      {% include coding_skills.html %}
+                      <!-- End of Coding Skills -->
+                      <!-- Knowledges -->
+                      {% include knowledge.html %}
+                      <!-- End of Knowledges -->
+                    </div>
+                    <!-- End of Skills & Certificates -->
+                  </div>
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Certificates -->
+                  {% include certificates.html %}
+                  <!-- End of Certificates -->
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+            </div>
+          </div>
+      </div>
+    </div>
+</body>
+</html>

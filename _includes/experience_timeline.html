@@ -1,0 +1,20 @@
+{% if page.experiences_timeline %}
+<div class="block-title">
+    <h3>Experience</h3>
+</div>
+{% endif %}
+{% for experience  in page.experiences_timeline %}
+<div class="timeline timeline-second-style clearfix">
+    <div class="timeline-item clearfix">
+        <div class="left-part">
+            <h5 class="item-period">{{experience.year}}</h5>
+            <span class="item-company">{{experience.company}}</span>
+        </div>
+        <div class="divider"></div>
+        <div class="right-part">
+            <h4 class="item-title">{{experience.title}}</h4>
+            <p>{{experience.description}}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}

@@ -1,0 +1,18 @@
+{% if page.skills %}
+<div class="block-title">
+    <h3>Coding <span>Skills</span></h3>
+</div>
+{% endif %}
+<div class="skills-info skills-second-style">
+<!-- Skill 5 -->
+    {% for skill in page.skills %}
+    <div class="skill clearfix">
+        <h4>{{skill.name}}</h4>
+        <div class="skill-value">{{skill.percentage}}%</div>
+    </div>
+    <div class="skill-container skill-{{skill.percentage}}">
+        <div class="skill-percentage"></div>
+    </div>
+    {% endfor %}
+<!-- End of Skill -->
+</div>

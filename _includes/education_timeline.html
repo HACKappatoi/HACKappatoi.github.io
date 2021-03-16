@@ -1,0 +1,21 @@
+{% if page.educations_timeline %}
+<div class="block-title">
+    <h3>Education</h3>
+</div>
+{% endif %}
+<div class="timeline timeline-second-style clearfix">
+{% for education  in page.educations_timeline %}
+
+    <div class="timeline-item clearfix">
+        <div class="left-part">
+            <h5 class="item-period">{{education.year}}</h5>
+            <span class="item-company">{{education.company}}</span>
+        </div>
+        <div class="divider"></div>
+        <div class="right-part">
+            <h4 class="item-title">{{education.title}}</h4>
+            <p>{{education.description}}</p>
+        </div>
+    </div>
+{% endfor %}
+</div>

@@ -1,0 +1,11 @@
+<div class="white-space-10"></div>
+{% if page.knowledges %}
+<div class="block-title">
+    <h3>Knowledges</h3>
+</div>
+{% endif %}
+<ul class="knowledges">
+    {% for knowledge in page.knowledges %}
+    <li>{{knowledge}}</li>
+    {% endfor %}
+</ul>
