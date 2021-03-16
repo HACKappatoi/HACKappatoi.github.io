@@ -271,6 +271,74 @@ input[type="submit"]:focus {
 /* ------------------------------------------------------------
 4. Header
 ------------------------------------------------------------ */
+
+@media only screen and (max-width: 1024px) {
+  .header-titles-mobile h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #F2B90C;
+    margin: 5px 0 7px;
+    line-height: 1.2em;
+  } 
+  
+  .header-titles-mobile h4 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #F2B90C;
+    margin: 5px 0;
+    line-height: 1.2em;
+  }
+
+  .header-photo-mobile {
+    position: relative;
+    width: 180px;
+    margin: 0 auto 30px;
+    z-index: 1;
+  }
+  
+  .header-photo-mobile img {
+    max-width: 100%;
+    background-color: #F2B90C;
+    border: 3px solid #F2B90C;
+    border-radius: 300px;
+  }
+  
+  .header-photo-mobile:after {
+    position: absolute;
+    opacity: 0.3;
+    top: 7%;
+    left: 7%;
+    border-radius: 300px;
+    content: '';
+    height: calc(100% + 0px);
+    width: calc(100% + 0px);
+    background-image: -webkit-repeating-radial-gradient(center center, #F2B90C, #F2B90C 1px, transparent 0px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #F2B90C, #F2B90C 1px, transparent 0px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #F2B90C, #F2B90C 1px, transparent 0px, transparent 100%);
+    -webkit-background-size: 6px 6px;
+    -moz-background-size: 6px 6px;
+    background-size: 6px 6px;
+    z-index: -1;
+  }
+
+  .header-buttons-mobile {
+    margin-top: 50px;
+  }
+  
+  .header-buttons-mobile .btn-primary {
+    background-color: transparent;
+    color: #F2B90C;
+      border-color: #F2B90C;
+  }
+  
+  .header-buttons-mobile .btn-primary:hover {
+    background-color: #fff;
+    color: #F2B90C;
+    border-color: #fff;
+  }
+  
+}
+
 @media only screen and (min-width: 1025px) {
   .header {
     display: inline-block;
@@ -285,9 +353,11 @@ input[type="submit"]:focus {
     overflow: auto;
   }
 
-  .header-titles {
-
-  }
+  .header-buttons-mobile,
+  .header-photo-mobile ,
+  .header-titles-mobile {
+    display: none;
+  } 
 
   /* --- Navigation --- */
   ul.main-menu {

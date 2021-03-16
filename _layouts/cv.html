@@ -43,7 +43,7 @@ layout: compress
               </div>
               <div class="header-titles">
                 <h2>{{ page.nome }}</h2>
-                <h4>{{ page.nick }}</h4>
+                <h4>@{{ page.nick }}</h4>
               </div>
             </div>
 
@@ -68,10 +68,31 @@ layout: compress
 
               <!-- Resume Subpage -->
               <section data-id="resume" class="animated-section start-page ps section-active" data-ps-id="e91cc8f7-f253-a9a7-b2b9-ead062b7899a">
-
-                <div class="page-title">
-                  <h2>About <span>Me</span></h2>
+                <div class="header-buttons-mobile">
+                  <a href="/about/" target="_blank" class="btn btn-primary"> <i class="fas fa-chevron-left"></i>  Back</a>
+    
+                  {% if page.cv_file %}
+                    <a href="{{page.cv_file}}" target="_blank" class="btn btn-primary">Download CV</a>
+                  {% endif %}
+                  
                 </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="page-title">
+                      <h2>About <span>Me</span></h2>
+                    </div>
+                    <div class="header-titles-mobile">
+                      <h2>{{ page.nome }}</h2>
+                      <h4>@{{ page.nick }}</h4>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="header-photo-mobile">
+                      <img src="{{page.profile_image}}" alt="{{ page.nome }} profile image">
+                    </div>
+                  </div>
+                </div>
+                
 
                 <div class="section-content">
                   <!-- Personal Information -->
