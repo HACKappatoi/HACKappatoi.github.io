@@ -43,7 +43,7 @@ skills: [
           { name: C
           , percentage: 90 
           },
-          { name: Web Techlogies
+	  { name: Web Techlogies
           , percentage: 90
           },
 	  { name: Python
