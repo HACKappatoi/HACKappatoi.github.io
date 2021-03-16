@@ -90,7 +90,7 @@ educations_timeline: [
                         , description: Margherita di Savoia, BT
                         },
                      ],
-experiences_timeline: [
+educations_timeline: [
                         { year: 2013
                         , company: Rome CUP
                         , title: Scientifico Scienze applicate
