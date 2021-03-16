@@ -6,7 +6,7 @@ layout: cv
 nome: Michele Dilollo
 nick: isfet
 profile_image: /assets/img/isfet.jpg
-cv_file: assets.pdf
+#cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
 # metti il nick /{{nick}}/
@@ -68,28 +68,21 @@ skills: [
 #              ]
 
 
-educations_timeline: [
-                        { year: -
+educations_timeline: [  { year: -
                         , company: University of Rome
                         , title: Cybersecurity
                         , description: Rome
                         },
-                     ],
-                     [
                         { year: 2019
                         , company: University of Rome
                         , title: Ingegneria Informatica
                         , description: Rome
                         },
-                     ],
-                     [
                         { year: 2016
                         , company: Liceo Aldo Moro
                         , title: Scientifico Scienze applicate
                         , description: Margherita di Savoia, BT
                         },
-                     ],
-                     [
                         { year: 2013
                         , company: Rome CUP
                         , title: Scientifico Scienze applicate
