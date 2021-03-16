@@ -40,19 +40,16 @@ knowledges:
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
-          { name: C
-          , percentage: 90 
-          },
-	  { name: Web Techlogies
-          , percentage: 90
-          },
-	  { name: Python
-          , percentage: 80
-          },
-	  { name: JS and Derived
-          , percentage: 80
-          }
-        ]
+{ 
+	name: C
+	, percentage: 90 }
+	,{ name: Web Techlogies
+	, percentage: 90}
+	,{ name: Python
+	, percentage: 80}
+	,{ name: JS and Derived
+	, percentage: 80}
+]
 
 # se c'hai i certificati e sei gia 
 # pronto a lavora mettili qua
