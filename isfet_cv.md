@@ -10,7 +10,7 @@ cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
 # metti il nick /{{nick}}/
-permalink: /cv/
+permalink: /isfet/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
