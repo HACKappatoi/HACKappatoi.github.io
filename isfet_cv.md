@@ -75,30 +75,27 @@ educations_timeline: [
                         , description: Rome
                         },
                      ],
-educations_timeline: [
+                     [
                         { year: 2019
                         , company: University of Rome
                         , title: Ingegneria Informatica
                         , description: Rome
                         },
                      ],
-# quello che te sei studiato negli anni
-educations_timeline: [
+                     [
                         { year: 2016
                         , company: Liceo Aldo Moro
                         , title: Scientifico Scienze applicate
                         , description: Margherita di Savoia, BT
                         },
                      ],
-educations_timeline: [
+                     [
                         { year: 2013
                         , company: Rome CUP
                         , title: Scientifico Scienze applicate
                         , description: Robotic National Challenge
                         },
-                      ]
+                     ]
+                     
 
-# do te sei fatto sfrutta negli anni
-
----
 
