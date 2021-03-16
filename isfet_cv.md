@@ -68,7 +68,7 @@ skills: [
 #              ]
 
 
-educations_timeline: [  { year: -
+educations_timeline: [  { year: "-"
                         , company: University of Rome
                         , title: Cybersecurity
                         , description: Rome
