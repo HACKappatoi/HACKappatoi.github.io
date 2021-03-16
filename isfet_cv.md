@@ -5,7 +5,7 @@ layout: cv
 # info per il cv 
 nome: Michele Dilollo
 nick: isfet
-profile_image: /assets/img/avatar.jpg
+profile_image: /assets/img/isfet.jpg
 cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
