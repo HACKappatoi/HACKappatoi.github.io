@@ -43,19 +43,19 @@ knowledges:
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
-          { name: Java/Object Oriented Programming
+          { name: "Java/Object Oriented Programming"
           , percentage: 80 
           },
-          { name: Soldering/Hardware
+          { name: "Soldering/Hardware"
           , percentage: 60
           },
-          { name: C/C++
+          { name: "C/C++"
           , percentage: 70
           },
-          { name: Web technologies
+          { name: "Web technologies"
           , percentage: 65
           },
-          { name: Linux
+          { name: "Linux"
           , percentage: 90
           },
         ]
@@ -76,18 +76,18 @@ skills: [
 # quello che te sei studiato negli anni
 educations_timeline: [
                         { year: 2017
-                        , company: Liceo Scientifico Augusto Righi
-                        , title: Scienze applicate
+                        , company: "Liceo Scientifico Augusto Righi"
+                        , title: "Scienze applicate"
                         , description: "Graduation, 76/100"
                         },
                         { year: 2020
-                        , company: University Of Bologna
-                        , title: Ingegneria e Scienze Informatiche
+                        , company: "University Of Bologna"
+                        , title: "Ingegneria e Scienze Informatiche"
                         , description: "Bachelor degree, 98/110"
                         },
                         { year: "-"
-                        , company: University Of Rome, La Sapienza
-                        , title: Cybersecurity
+                        , company: "University Of Rome, La Sapienza"
+                        , title: "Cybersecurity"
                         , description: "Master degree, -/110"
                         },
                      ]
