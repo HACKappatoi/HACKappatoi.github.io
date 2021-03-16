@@ -73,14 +73,14 @@ educations_timeline: [
                         , title: Cybersecurity
                         , description: Rome
                         },
-                     ]
+                     ],
 educations_timeline: [
                         { year: 2019
                         , company: University of Rome
                         , title: Ingegneria Informatica
                         , description: Rome
                         },
-                     ]
+                     ],
 # quello che te sei studiato negli anni
 educations_timeline: [
                         { year: 2016
@@ -88,7 +88,7 @@ educations_timeline: [
                         , title: Scientifico Scienze applicate
                         , description: Margherita di Savoia, BT
                         },
-                     ]
+                     ],
 experiences_timeline: [
                         { year: 2013
                         , company: Rome CUP
