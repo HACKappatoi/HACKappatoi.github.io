@@ -14,7 +14,7 @@ permalink: /eurus/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: Student of cybersecurity 💻 at Sapienza University of Rome. In the past I participated in a Google Workshop with Sapienza University of Rome in collaboration with Tel-Aviv University. I have always been passionate about computer science since I was a child, which is my hobby and my field of study at the moment🍺.
+bio: "Student of cybersecurity 💻 at Sapienza University of Rome. In the past I participated in a Google Workshop with Sapienza University of Rome in collaboration with Tel-Aviv University. I have always been passionate about computer science since I was a child, which is my hobby and my field of study at the moment🍺."
 
 residence: Rome
 
@@ -33,33 +33,32 @@ github: https://github.com/tizianocolagrossi
 # famose a capi
 knowledges:
     [ Reverse Engineering
-    , Digital Design
-    , Time Management
-    , Problem-Solving
+    , Pwn
+    , Web
+    , Forensic
+    , Cypto
     ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
-          { name: C
+          { name: C/C++
           , percentage: 90
           },
           { name: Asm
-          , percentage: 30
+          , percentage: 35
           },
           { name: Python
           , percentage: 90
           },
+          { name: Web technologies
+          , percentage: 70
+          },
           { name: Rust
-          , percentage: 40
+          , percentage: 50
           },
           { name: Flutter
           , percentage: 80
           },
-          { name: Web technologies
-          , percentage: 70
-          },
-          
-          
         ]
 
 # se c'hai i certificati e sei gia 
