@@ -9,13 +9,13 @@
 
     <div class="timeline-item clearfix">
         <div class="left-part">
-            <h5 class="item-period">{{education.year}}</h5>
-            <span class="item-company">{{education.company}}</span>
+            <h5 class="item-period">{{education.year | strip_html }}</h5>
+            <span class="item-company">{{education.company | strip_html }}</span>
         </div>
         <div class="divider"></div>
         <div class="right-part">
-            <h4 class="item-title">{{education.title}}</h4>
-            <p>{{education.description}}</p>
+            <h4 class="item-title">{{education.title | strip_html }}</h4>
+            <p>{{education.description | strip_html }}</p>
         </div>
     </div>
 {% endfor %}

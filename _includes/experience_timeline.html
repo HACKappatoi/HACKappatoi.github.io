@@ -8,13 +8,13 @@
 <div class="timeline timeline-second-style clearfix">
     <div class="timeline-item clearfix">
         <div class="left-part">
-            <h5 class="item-period">{{experience.year}}</h5>
-            <span class="item-company">{{experience.company}}</span>
+            <h5 class="item-period">{{experience.year | strip_html }}</h5>
+            <span class="item-company">{{experience.company | strip_html }}</span>
         </div>
         <div class="divider"></div>
         <div class="right-part">
-            <h4 class="item-title">{{experience.title}}</h4>
-            <p>{{experience.description}}</p>
+            <h4 class="item-title">{{experience.title | strip_html }}</h4>
+            <p>{{experience.description | strip_html }}</p>
         </div>
     </div>
 </div>

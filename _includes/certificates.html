@@ -15,17 +15,17 @@
     <div class="col-xs-12 col-sm-6">
         <div class="certificate-item clearfix">
             <div class="certi-logo">
-                <img src="{{certificate.image}}" alt="logo">
+                <img src="{{certificate.image | strip_html }}" alt="logo">
             </div>
             <div class="certi-content">
                 <div class="certi-title">
-                    <h4>{{certificate.title}}</h4>
+                    <h4>{{certificate.title | strip_html }}</h4>
                 </div>
                 <div class="certi-id">
-                    <span>{{certificate.id}}</span>
+                    <span>{{certificate.id | strip_html }}</span>
                 </div>
                 <div class="certi-date">
-                    <span>{{certificate.date}}</span>
+                    <span>{{certificate.date | strip_html }}</span>
                 </div>
                 <div class="certi-company">
                     <span></span>

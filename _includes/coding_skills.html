@@ -8,10 +8,10 @@
 <!-- Skill 5 -->
     {% for skill in page.skills %}
     <div class="skill clearfix">
-        <h4>{{skill.name}}</h4>
-        <div class="skill-value">{{skill.percentage}}%</div>
+        <h4>{{skill.name | strip_html }}</h4>
+        <div class="skill-value">{{skill.percentage | strip_html }}%</div>
     </div>
-    <div class="skill-container skill-{{skill.percentage}}">
+    <div class="skill-container skill-{{skill.percentage | strip_html }}">
         <div class="skill-percentage"></div>
     </div>
     {% endfor %}

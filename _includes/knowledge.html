@@ -7,7 +7,7 @@
 {% endif %}
 <ul class="knowledges">
     {% for knowledge in page.knowledges %}
-    <li>{{knowledge}}</li>
+    <li>{{knowledge | strip_html }}</li>
     {% endfor %}
 </ul>
 
