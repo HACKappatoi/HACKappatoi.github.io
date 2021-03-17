@@ -6,7 +6,7 @@ layout: cv
 nome: Luca Nazario Pacilli
 nick: LNPacio
 profile_image: /assets/img/luca.jfif
-cv_file: assets.pdf
+#cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
 # metti il nick /{{LNPacio}}/
