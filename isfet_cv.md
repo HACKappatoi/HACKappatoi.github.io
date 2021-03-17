@@ -46,11 +46,8 @@ skills: [
           { name: Python
           , percentage: 80
           },
-          { name: Web Technologies and Protocol
-          , percentage: 80
-          },
           { name: Js and Derived
-          , percentage: 80
+          , percentage: 90
           },
           { name: PHP
           , percentage: 50
