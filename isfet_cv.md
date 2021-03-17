@@ -33,9 +33,10 @@ github: https://github.com/isf3t
 # famose a capi
 knowledges:
     [ Web Technologies and protocol
-    , Operating Systems
-    , Time Management
-    , Problem-Solving
+    , Web PWN
+    , Privilege Escalation
+    , Stego
+    , Crypto
     ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
@@ -75,7 +76,7 @@ educations_timeline: [  { year: "-"
                         },
                         { year: 2019
                         , company: University of Rome
-                        , title: Ingegneria Informatica
+                        , title: Master Degree in Ingegneria Informatica
                         , description: Rome
                         },
                         { year: 2016
@@ -85,7 +86,7 @@ educations_timeline: [  { year: "-"
                         },
                         { year: 2013
                         , company: Rome CUP
-                        , title: Scientifico Scienze applicate
+                        , title: Rome CUP 2013
                         , description: Robotic National Challenge
                         },
                      ]
