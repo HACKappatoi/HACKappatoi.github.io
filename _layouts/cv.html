@@ -98,7 +98,9 @@ layout: compress
                   <!-- Personal Information -->
                   <div class="row">
                     <div class="col-xs-12 col-sm-7">
-                      <p>{{page.bio | escape }}</p>
+                      {% raw %}
+                      <p>{{ page.bio }}</p>
+                      {% endraw %}
                     </div>
 
                     <div class="col-xs-12 col-sm-5">
