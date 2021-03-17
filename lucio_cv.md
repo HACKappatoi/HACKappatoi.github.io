@@ -62,7 +62,7 @@ skills: [
 # quello che te sei studiato negli anni
 educations_timeline: [ 
                         { year: "-"
-                        , company: "La Sapienza"
+                        , company: "La Sapienza, University Of Rome"
                         , title: "Graduation in Ingegneria Informatica"
                         , description: "Rome"
                         },

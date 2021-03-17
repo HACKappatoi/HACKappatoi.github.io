@@ -68,29 +68,29 @@ skills: [
 
 
 educations_timeline: [  { year: "-"
-                        , company: University of Rome
-                        , title: Cybersecurity
+                        , company: "La Sapienza, University Of Rome"
+                        , title: "Cybersecurity"
                         , description: Rome
                         },
                         { year: 2019
-                        , company: University of Rome
-                        , title: Graduation in Ingegneria Informatica
+                        , company: "La Sapienza, University Of Rome"
+                        , title: "Graduation in Ingegneria Informatica"
                         , description: Rome
                         },
                         { year: 2018
-                        , company: University of Rome
-                        , title: Winning Project of Google Workshop
+                        , company: "La Sapienza, University Of Rome"
+                        , title: "Winning Project of Google Workshop"
                         , description: Rome
                         },
                         { year: 2016
-                        , company: Liceo Aldo Moro
-                        , title: Scientifico Scienze applicate
-                        , description: Margherita di Savoia - BT
+                        , company: "Liceo Aldo Moro"
+                        , title: "Scientifico Scienze applicate"
+                        , description: "Margherita di Savoia - BT"
                         },
                         { year: 2013
-                        , company: Rome CUP
-                        , title: Rome CUP 2013
-                        , description: Robotic National Challenge
+                        , company: "Rome CUP"
+                        , title: "Rome CUP 2013"
+                        , description: "Robotic National Challenge"
                         },
                      ]
                      

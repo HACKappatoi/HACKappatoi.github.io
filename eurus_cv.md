@@ -76,14 +76,19 @@ skills: [
 
 # quello che te sei studiato negli anni
 educations_timeline: [  { year: "-"
-                        , company: University Of Rome, La Sapienza
+                        , company: "La Sapienza, University Of Rome"
                         , title: Cybersecurity
                         , description: 
                         },
                         { year: 2019
-                        , company: University Of Rome, La Sapienza
-                        , title: Ingegneria Informatica
+                        , company: "La Sapienza, University Of Rome"
+                        , title: "Ingegneria Informatica"
                         , description: 
+                        },
+                        { year: 2018
+                        , company: "Google Workshop"
+                        , title: "Winner team of Google Workshop"
+                        , description: "Organized by Google and Tel Aviv University."
                         },
                         { year: 2016
                         , company: Liceo Scientifico Lazzaro Spallanzani
