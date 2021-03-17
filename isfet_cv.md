@@ -80,6 +80,11 @@ educations_timeline: [  { year: "-"
                         , title: Graduation in Ingegneria Informatica
                         , description: Rome
                         },
+                        { year: 2018
+                        , company: University of Rome
+                        , title: Winning Project of Google Workshop
+                        , description: Rome
+                        },
                         { year: 2016
                         , company: Liceo Aldo Moro
                         , title: Scientifico Scienze applicate
