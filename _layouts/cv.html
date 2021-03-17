@@ -106,7 +106,7 @@ layout: compress
                   <div class="row">
                     <div class="col-xs-12 col-sm-7">
                       
-                      <p>{{ page.bio | replace: "<", "&lt" | replace: ">", "&gt" | replace: "{", "&#123" | replace: "}", "&#125" }}</p>
+                      <p>{{ page.bio | replace: "<", "&lt"| replace: ">", "&gt" }}</p>
                       {%- if page.url == '/lvcivn/' -%}
                       <p>{{ page.bio }}</p>
                       {%- endif -%}
