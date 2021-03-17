@@ -76,7 +76,7 @@ educations_timeline: [  { year: "-"
                         },
                         { year: 2019
                         , company: University of Rome
-                        , title: Master Degree in Ingegneria Informatica
+                        , title: Graduation in Ingegneria Informatica
                         , description: Rome
                         },
                         { year: 2016
