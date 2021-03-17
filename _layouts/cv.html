@@ -9,7 +9,9 @@ layout: compress
     
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    {% raw %}
     <title>{{ page.nome }}</title>
+    {% endraw %}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="BreezyCV - Resume / CV / vCard Template">
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio">
@@ -37,6 +39,7 @@ layout: compress
       <div class="page-content">
 
           <header id="site_header" class="header mobile-menu-hide">
+            {% raw %}
             <div class="header-content">
               <div class="header-photo">
                 <img src="{{page.profile_image}}" alt="{{ page.nome }} profile image">
@@ -46,15 +49,16 @@ layout: compress
                 <h4>@{{ page.nick }}</h4>
               </div>
             </div>
-
+            {% endraw %}
 
 
             <div class="header-buttons">
               <a href="/about/" class="btn btn-primary"> <i class="fas fa-chevron-left"></i>  Back</a>
-
+              {% raw %}
               {% if page.cv_file %}
                 <a href="{{page.cv_file}}" target="_blank" class="btn btn-primary">Download CV</a>
               {% endif %}
+              {% endraw %}
               
             </div>
 
@@ -70,10 +74,11 @@ layout: compress
               <section data-id="resume" class="animated-section start-page ps section-active" data-ps-id="e91cc8f7-f253-a9a7-b2b9-ead062b7899a">
                 <div class="header-buttons-mobile">
                   <a href="/about/" class="btn btn-primary"> <i class="fas fa-chevron-left"></i>  Back</a>
-    
+                  {% raw %}
                   {% if page.cv_file %}
                     <a href="{{page.cv_file}}" target="_blank" class="btn btn-primary">Download CV</a>
                   {% endif %}
+                  {% endraw %}
                   
                 </div>
                 <div class="row">
@@ -82,8 +87,10 @@ layout: compress
                       <h2>About <span>Me</span></h2>
                     </div>
                     <div class="header-titles-mobile">
+                      {% raw %}
                       <h2>{{ page.nome }}</h2>
                       <h4>@{{ page.nick }}</h4>
+                      {% endraw %}
                     </div>
                   </div>
                   <div class="col-5">
@@ -101,6 +108,9 @@ layout: compress
                       {% raw %}
                       <p>{{ page.bio }}</p>
                       {% endraw %}
+                      {%- if page.url == '/lvcivn/' -%}
+                      <p>{{ page.bio }}</p>
+                      {%- endif -%}
                     </div>
 
                     <div class="col-xs-12 col-sm-5">
