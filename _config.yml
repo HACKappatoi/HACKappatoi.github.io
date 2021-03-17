@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/hackappatoi-w.png # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+url: "https://hackappatoi.github.io" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
