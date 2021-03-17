@@ -22,7 +22,7 @@ residence: Rome
 # se non  ce l'hai commentalo
 # da qua se non voi che appare roba poi 
 # commenta tutto
-email: tiziano.colagrossi@gmail.com
+#email: 
 linkedin: https://www.linkedin.com/in/tiziano-colagrossi-656331157/
 instagram: https://www.instagram.com/little_spritz/ 
 github: https://github.com/tizianocolagrossi
