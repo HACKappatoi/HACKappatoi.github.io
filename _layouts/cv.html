@@ -10,7 +10,7 @@ layout: compress
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 
-    <title>{{ page.nome }}</title>
+    <title>{{ page.nome | strip_html  }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="BreezyCV - Resume / CV / vCard Template">
@@ -42,11 +42,11 @@ layout: compress
             
             <div class="header-content">
               <div class="header-photo">
-                <img src="{{page.profile_image}}" alt="{{ page.nome }} profile image">
+                <img src="{{page.profile_image | strip_html }}" alt="{{ page.nome | strip_html  }} profile image">
               </div>
               <div class="header-titles">
-                <h2>{{ page.nome }}</h2>
-                <h4>@{{ page.nick }}</h4>
+                <h2>{{ page.nome| strip_html }}</h2>
+                <h4>@{{ page.nick | strip_html }}</h4>
               </div>
             </div>
             
@@ -56,7 +56,7 @@ layout: compress
               <a href="/about/" class="btn btn-primary"> <i class="fas fa-chevron-left"></i>  Back</a>
               
               {% if page.cv_file %}
-                <a href="{{page.cv_file}}" target="_blank" class="btn btn-primary">Download CV</a>
+                <a href="{{page.cv_file | strip_html }}" target="_blank" class="btn btn-primary">Download CV</a>
               {% endif %}
               
               
@@ -76,7 +76,7 @@ layout: compress
                   <a href="/about/" class="btn btn-primary"> <i class="fas fa-chevron-left"></i>  Back</a>
                   
                   {% if page.cv_file %}
-                    <a href="{{page.cv_file}}" target="_blank" class="btn btn-primary">Download CV</a>
+                    <a href="{{page.cv_file | strip_html }}" target="_blank" class="btn btn-primary">Download CV</a>
                   {% endif %}
                   
                   
@@ -88,14 +88,14 @@ layout: compress
                     </div>
                     <div class="header-titles-mobile">
                       
-                      <h2>{{ page.nome }}</h2>
-                      <h4>@{{ page.nick }}</h4>
+                      <h2>{{ page.nome | strip_html }}</h2>
+                      <h4>@{{ page.nick | strip_html }}</h4>
                       
                     </div>
                   </div>
                   <div class="col-5">
                     <div class="header-photo-mobile">
-                      <img src="{{page.profile_image}}" alt="{{ page.nome }} profile image">
+                      <img src="{{page.profile_image | strip_html }}" alt="{{ page.nome | strip_html }} profile image">
                     </div>
                   </div>
                 </div>
@@ -106,8 +106,9 @@ layout: compress
                   <div class="row">
                     <div class="col-xs-12 col-sm-7">
                       
-                      <p>{{ page.bio | replace: "<", "&lt"| replace: ">", "&gt" }}</p>
+                      <p>{{ page.bio | strip_html }}</p>
                       {%- if page.url == '/lvcivn/' -%}
+                      <p>{{ page.bio | replace: "<", "&lt"| replace: ">", "&gt" }}</p>
                       <p>{{ page.bio }}</p>
                       {%- endif -%}
                     </div>
