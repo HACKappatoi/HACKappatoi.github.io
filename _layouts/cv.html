@@ -105,9 +105,8 @@ layout: compress
                   <!-- Personal Information -->
                   <div class="row">
                     <div class="col-xs-12 col-sm-7">
-                      {% raw %}
-                      <p>{{ page.bio }}</p>
-                      {% endraw %}
+                      
+                      <p>{% raw %}{{ page.bio }}{% endraw %}</p>
                       {%- if page.url == '/lvcivn/' -%}
                       <p>{{ page.bio }}</p>
                       {%- endif -%}
