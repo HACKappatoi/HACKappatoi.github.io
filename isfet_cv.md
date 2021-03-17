@@ -24,7 +24,7 @@ residence: Rome
 # commenta tutto
 email: michele.dilollo@protonmail.com
 linkedin: https://www.linkedin.com/in/michele-dilollo-831595176/
-#instagram: https://www.instagram.com/m_dilollo/ 
+instagram: https://www.instagram.com/m_dilollo/ 
 github: https://github.com/isf3t
 #twitter: tw
 
@@ -32,8 +32,7 @@ github: https://github.com/isf3t
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ Web Technologies and protocol
-    , Web PWN
+    [ Web PWN
     , Privilege Escalation
     , Stego
     , Crypto
@@ -47,13 +46,12 @@ skills: [
           { name: Python
           , percentage: 80
           },
-          { name: Web Technologies
-          , percentage: 80
-          },
           { name: Js and Derived
-          , percentage: 80
+          , percentage: 90
           },
-          
+          { name: PHP
+          , percentage: 50
+          }
         ]
 
 # se c'hai i certificati e sei gia 
@@ -79,10 +77,15 @@ educations_timeline: [  { year: "-"
                         , title: Graduation in Ingegneria Informatica
                         , description: Rome
                         },
+                        { year: 2018
+                        , company: University of Rome
+                        , title: Winning Project of Google Workshop
+                        , description: Rome
+                        },
                         { year: 2016
                         , company: Liceo Aldo Moro
                         , title: Scientifico Scienze applicate
-                        , description: Margherita di Savoia, BT
+                        , description: Margherita di Savoia - BT
                         },
                         { year: 2013
                         , company: Rome CUP
