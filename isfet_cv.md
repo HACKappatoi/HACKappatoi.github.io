@@ -24,7 +24,7 @@ residence: Rome
 # commenta tutto
 email: michele.dilollo@protonmail.com
 linkedin: https://www.linkedin.com/in/michele-dilollo-831595176/
-#instagram: m_dilollo 
+#instagram: https://www.instagram.com/m_dilollo/ 
 github: https://github.com/isf3t
 #twitter: tw
 
