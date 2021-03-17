@@ -85,7 +85,7 @@ educations_timeline: [  { year: "-"
                         { year: 2016
                         , company: Liceo Aldo Moro
                         , title: Scientifico Scienze applicate
-                        , description: Margherita di Savoia, BT
+                        , description: Margherita di Savoia - BT
                         },
                         { year: 2013
                         , company: Rome CUP
