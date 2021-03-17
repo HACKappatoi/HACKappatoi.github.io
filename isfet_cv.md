@@ -32,8 +32,7 @@ github: https://github.com/isf3t
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ Web Technologies and protocol
-    , Web PWN
+    [ Web PWN
     , Privilege Escalation
     , Stego
     , Crypto
@@ -47,13 +46,15 @@ skills: [
           { name: Python
           , percentage: 80
           },
-          { name: Web Technologies
+          { name: Web Technologies and Protocol
           , percentage: 80
           },
           { name: Js and Derived
           , percentage: 80
           },
-          
+          { name: PHP
+          , percentage: 50
+          }
         ]
 
 # se c'hai i certificati e sei gia 
