@@ -5,7 +5,7 @@ layout: cv
 # info per il cv 
 nome: Lucian Medrihan
 nick: lvcivn
-#profile_image: /assets/img/avatar.jpg
+profile_image: /assets/img/lucio.jpeg
 # link a cui la pagina é mappata nel sito
 # metti il nick /{{nick}}/
 permalink: /lvcivn/
