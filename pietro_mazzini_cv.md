@@ -14,7 +14,7 @@ permalink: /myasnik/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: Hi, my name is Pietro; I’ve born in January 17, 1998 🎂. Linux 🐧 user. I speak fluently italian and english, I’m studying japanese and will study french and spanish.
+bio: "Hi, my name is Pietro; I’ve born in January 17, 1998 🎂. Linux 🐧 user. I speak fluently italian and english, I’m studying japanese and will study french and spanish."
 
 residence: Cesena
 
@@ -44,19 +44,22 @@ knowledges:
 # percentage va da 5 a 100 con scala 5
 skills: [
           { name: "Java/Object Oriented Programming"
-          , percentage: 80 
+          , percentage: 75 
           },
           { name: "Soldering/Hardware"
           , percentage: 60
           },
-          { name: "C/C++"
-          , percentage: 70
+          { name: "Asm/C/C++"
+          , percentage: 80
           },
           { name: "Web technologies"
           , percentage: 65
           },
           { name: "Linux"
           , percentage: 90
+          },
+          { name: "Python"
+          , percentage: 85
           },
         ]
 
@@ -72,30 +75,25 @@ skills: [
 #                },
 #              ]
 
-
-# quello che te sei studiato negli anni
+# do te sei fatto sfrutta negli anni
 educations_timeline: [
-                        { year: 2017
-                        , company: "Liceo Scientifico Augusto Righi"
-                        , title: "Scienze applicate"
-                        , description: "Graduation, 76/100"
+                        { year: "-"
+                        , company: "University Of Rome, La Sapienza"
+                        , title: Cybersecurity
+                        , description: "Master degree, -/110"
                         },
                         { year: 2020
                         , company: "University Of Bologna"
                         , title: "Ingegneria e Scienze Informatiche"
                         , description: "Bachelor degree, 98/110"
                         },
-                        { year: "-"
-                        , company: "University Of Rome, La Sapienza"
-                        , title: "Cybersecurity"
-                        , description: "Master degree, -/110"
-                        },
+                        { year: 2017
+                        , company: "Liceo Scientifico Augusto Righi"
+                        , title: "Scienze applicate"
+                        , description: "Graduation, 76/100"
+                        }, 
                      ]
 
 
-# do te sei fatto sfrutta negli anni
-#experiences_timeline: [
-#                        
-#                      ]
-
 ---
+
