@@ -891,7 +891,7 @@ input[type="submit"]:focus {
   position: absolute;
   margin-left: -8px;
   border-radius: 10px;
-  background-color: #492073;
+  background-color: #f2b90c;
   opacity: .25;
   z-index: 0;
 }
@@ -906,7 +906,7 @@ input[type="submit"]:focus {
   margin-left: -4px;
   background-color: #fff;
   border-radius: 5px;
-  border: 2px solid #492073;
+  border: 2px solid #f2b90c;
   z-index: 1;
 }
 
