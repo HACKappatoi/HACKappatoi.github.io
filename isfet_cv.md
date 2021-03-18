@@ -78,9 +78,9 @@ educations_timeline: [  { year: "-"
                         , description: Rome
                         },
                         { year: 2018
-                        , company: "La Sapienza, University Of Rome"
-                        , title: "Winning Project of Google Workshop"
-                        , description: Rome
+                        , company: "Google Workshop"
+                        , title: "Winner team of Google Workshop"
+                        , description: "Organized by Google and Tel Aviv University"
                         },
                         { year: 2016
                         , company: "Liceo Aldo Moro"
