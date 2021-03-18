@@ -74,7 +74,7 @@ educations_timeline: [  { year: "-"
                         },
                         { year: 2019
                         , company: "La Sapienza, University Of Rome"
-                        , title: "Graduation in Ingegneria Informatica"
+                        , title: "Ingegneria informatica e automatica"
                         , description: Rome
                         },
                         { year: 2018

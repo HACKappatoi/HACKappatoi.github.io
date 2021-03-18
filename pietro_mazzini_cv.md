@@ -14,7 +14,7 @@ permalink: /myasnik/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: "Hi, my name is Pietro; I’ve born in January 17, 1998 🎂. Linux 🐧 user. I speak fluently italian and english, I’m studying japanese and will study french and spanish."
+bio: "Hi, my name is Pietro; I was born in January 17, 1998 🎂. Linux 🐧 user. I speak fluently italian and english, I’m studying japanese and will study french and spanish"
 
 residence: Cesena
 
@@ -46,17 +46,11 @@ skills: [
           { name: "Java/Object Oriented Programming"
           , percentage: 75 
           },
-          { name: "Soldering/Hardware"
-          , percentage: 60
-          },
           { name: "Asm/C/C++"
           , percentage: 80
           },
           { name: "Web technologies"
           , percentage: 65
-          },
-          { name: "Linux"
-          , percentage: 90
           },
           { name: "Python"
           , percentage: 85
