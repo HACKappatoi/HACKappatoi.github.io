@@ -10,7 +10,7 @@ We are Hackappatoi, we are a team composed mainly by students of cybersecurity a
 
 ## Members
 
-
+ [Davide Brian Di Campi (@voidPtr)](/voidptr/)  
  [Federico Mastrigiacomo (@unleashed)](/unleashed/)  
  [Luca Nazario Pacilli (@LNpacio)](/lnpacio/)   
  [Lucian Medrihan (@lvcivn)](/lvcivn/)  
