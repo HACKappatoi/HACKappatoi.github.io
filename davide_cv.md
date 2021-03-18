@@ -79,7 +79,7 @@ educations_timeline: [
                         { year: "-"
                         , company: "La Sapienza University of Rome"
                         , title: "Master degree in Cybersecurity" 
-                        , description: -
+                        , description: "-"
                         },
                         { year: 2019
                         , company: "La Sapienza University of Rome"
