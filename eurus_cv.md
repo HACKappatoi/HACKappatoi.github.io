@@ -45,7 +45,7 @@ skills: [
           , percentage: 90
           },
           { name: Asm
-          , percentage: 35
+          , percentage: 65
           },
           { name: Python
           , percentage: 90
