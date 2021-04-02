@@ -217,11 +217,10 @@
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
+    width: 40%;
+    height: auto;
     user-select: none;
-    background-color: $bg-image;
+    
     -ms-user-select: none;
     -webkit-user-select: none;
     -webkit-animation: 0.5s ease-in forwards fadein;
