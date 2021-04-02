@@ -82,7 +82,7 @@ h6 {
 }
 
 a {
-  color: #00cc06;
+  color: #00ffc4;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -147,7 +147,7 @@ input[type="submit"],
   line-height: 1.2;
   border: 0;
   outline: 0;
-  border: 2px solid #492073;
+  border: 2px solid #552849;
   color: #222;
   text-shadow: none;
   background-color: #fff;
@@ -178,9 +178,9 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-  background-color: #492073;
+  background-color: #552849;
   color: #fff;
-  border: 2px solid #492073;
+  border: 2px solid #552849;
 }
 
 .btn-secondary {
@@ -240,7 +240,7 @@ input[type="submit"]:focus {
   width: 52px;
   height: 52px;
   margin: 100px auto;
-  background-color: #492073;
+  background-color: #552849;
 
   border-radius: 100%;  
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -390,7 +390,7 @@ input[type="submit"]:focus {
   ul.main-menu a.active,
   ul.main-menu a:focus,
   ul.main-menu a:hover {
-    color: #492073;
+    color: #552849;
   }
 
   ul.main-menu .menu-icon {
@@ -405,7 +405,7 @@ input[type="submit"]:focus {
     opacity: 0;
     color: #fff;
     padding: 2px 10px;
-    background-color: #492073;
+    background-color: #552849;
     white-space: nowrap;
     right: 0;
     top: -50%;
@@ -458,7 +458,7 @@ input[type="submit"]:focus {
 }
 
 .lmpixels-arrows-nav div:hover {
-  color: #492073;
+  color: #552849;
 }
 /* --- End LMPixels Arrow Nav --- */
 
@@ -471,8 +471,8 @@ input[type="submit"]:focus {
 
 .header-photo img {
   max-width: 100%;
-  background-color: #492073;
-  border: 3px solid #492073;
+  background-color: #552849;
+  border: 3px solid #552849;
   border-radius: 300px;
 }
 
@@ -497,7 +497,7 @@ input[type="submit"]:focus {
 .header-titles h2 {
   font-size: 36px;
   font-weight: 600;
-  color: #492073;
+  color: #552849;
   margin: 5px 0 7px;
   line-height: 1.2em;
 } 
@@ -505,7 +505,7 @@ input[type="submit"]:focus {
 .header-titles h4 {
   font-size: 18px;
   font-weight: 300;
-  color: #492073;
+  color: #552849;
   margin: 5px 0;
   line-height: 1.2em;
 }
@@ -549,13 +549,13 @@ input[type="submit"]:focus {
 
 .header-buttons .btn-primary {
   background-color: transparent;
-  color: #492073;
-    border-color: #492073;
+  color: #552849;
+    border-color: #552849;
 }
 
 .header-buttons .btn-primary:hover {
   background-color: #fff;
-  color: #492073;
+  color: #552849;
   border-color: #fff;
 }
 
@@ -596,7 +596,7 @@ input[type="submit"]:focus {
 
 .animated-section {
   position: absolute;
-  background-color: #492073;
+  background-color: #552849;
   height: 100%;
   width: 100%;
   border-radius: 30px;
@@ -783,7 +783,7 @@ input[type="submit"]:focus {
 .info-block-w-icon i {
   position: relative;
   font-size: 42px;
-  color: #492073;
+  color: #552849;
   opacity: .7;
 }
 /* --- End Info block with Icon --- */
@@ -812,7 +812,7 @@ input[type="submit"]:focus {
 .lm-info-block i {
   position: relative;
   font-size: 33px;
-  color: #492073;
+  color: #552849;
   z-index: 1;
 }
 
@@ -827,7 +827,7 @@ input[type="submit"]:focus {
   font-weight: 400;
   display: block;
   margin: 10px 0;
-  color: #492073;
+  color: #552849;
 }
 
 
@@ -961,7 +961,7 @@ input[type="submit"]:focus {
 .skills-second-style .skill-container {
   position: relative;
   display: inline-block;
-  background-color: #492073;
+  background-color: #552849;
   border: 1px solid #f2b90c;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -977,7 +977,7 @@ input[type="submit"]:focus {
 .skills-second-style .skill-container:before {
   content: '';
   position: absolute;
-  background-color: #492073;
+  background-color: #552849;
 }
 
 .skills-second-style .skill-value {
@@ -991,7 +991,7 @@ input[type="submit"]:focus {
 
 .skills-second-style .skill-percentage {
   background-color: #fff;
-  border: 2px solid #492073;
+  border: 2px solid #552849;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
   border-radius: 9px;
@@ -1092,7 +1092,7 @@ input[type="submit"]:focus {
 
 .knowledges li {;
   display: inline-block;
-  background-color: #492073;
+  background-color: #552849;
   border-radius: 3px;
   border: #fcfcfc 1px solid;
   color: #ffffff;
@@ -1306,7 +1306,7 @@ blockquote {
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: #492073;
+    background-color: #552849;
     z-index: 99;
     padding: 30px 30px 10px 30px;
     text-align: center;
@@ -1406,7 +1406,7 @@ blockquote {
     height: 48px;
     line-height: 46px;
     text-align: center;
-    background-color: #492073;
+    background-color: #552849;
     right: 10px;
     font-size: 19px;
     top: 10px;
@@ -1495,7 +1495,7 @@ blockquote {
     right: 10px;
     bottom: 10px;
     padding: 5px 0;
-    border: 2px solid #492073;
+    border: 2px solid #552849;
   }
 
   .lmpixels-arrows-nav div {
