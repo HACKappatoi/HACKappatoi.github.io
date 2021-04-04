@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Grocery List"
+title:  "[Shakti CTF] Grocery List"
 date:   "2021-04-04"
 categories: MISC
 author: lvcivn
