@@ -122,7 +122,7 @@ eggs
 tunafish        terminates the program
 ```
 after that, i translated it line by line into a python script:
-```
+```python
 st=[]
 st.insert(0,ord('m'))
 st.insert(0,ord('z'))
@@ -156,7 +156,7 @@ while(st[0]!=0):
     st[0]-=st.pop(1)
 ```
 As we see, the output of the program depense only by our inputs so we can simplify our script into this function
-```
+```python
 def getRes(a,b):
     firstPrint=1 if ord(b)>ord(a) else 0
     firstPrint+=4
@@ -164,7 +164,7 @@ def getRes(a,b):
     return chr(firstPrint)+a
 ```
 And this function will encrypt 2 letters per time, now that we have a simple and working function, we can bruteforce the inputs and try to get the solution.
-```
+```python
 dic="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
 target="4cum77itQdKy4r7c~rm5u05plN"
 result=""
