@@ -34,7 +34,7 @@ github: https://github.com/isf3t
 knowledges:
     [ Web PWN
     , Privilege Escalation
-    , Stego
+    , Forensics
     , Crypto
     ]
 # queste so le skill co la barra
