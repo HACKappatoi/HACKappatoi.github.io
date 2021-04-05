@@ -32,9 +32,9 @@ github: https://github.com/isf3t
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ Web PWN
-    , Privilege Escalation
+    [ Web
     , Forensics
+    , Stego
     , Crypto
     ]
 # queste so le skill co la barra

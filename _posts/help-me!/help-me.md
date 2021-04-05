@@ -88,7 +88,7 @@ The command try to reconstract history from saved coockies, but unfortunatelly, 
 ...
 ```
 Boom! This file contains the information that we are searching for! We can download it running the fallowing command:
-**volatility_2.6_win64_standalone.exe -f ..\..\Challenge.vmem --profile=Win7SP1x64 dumpfile <address if the file> --name <outputfilename> -D <destinationdir>**
+```volatility_2.6_win64_standalone.exe -f ..\..\Challenge.vmem --profile=Win7SP1x64 dumpfile <address if the file> --name <outputfilename> -D <destinationdir>```
 
 The downloaded file contains usefull strings:
 **Visited: alexander@file:///C:/Users/alexander/Downloads/L4ST.py**
