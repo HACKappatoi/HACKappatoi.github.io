@@ -16,6 +16,7 @@ We are Hackappatoi, we are a team composed mainly by students of cybersecurity a
  [Lucian Medrihan (@lvcivn)](/lvcivn/)  
  [Michele Dilollo (@isfet)](/isfet/)  
  [Pietro Mazzini (@myasnik)](/myasnik/)    
+ [Riccardo Pagliuca (@capithanos)](/capithanos/)   
  [Tiziano Colagrossi (@eurus)](/eurus/)   
  
  
