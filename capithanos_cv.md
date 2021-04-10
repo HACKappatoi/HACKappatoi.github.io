@@ -32,25 +32,25 @@ residence: Rome
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ Cryptography
-    , Web Development
-    , Misc
-    , Time Management
-    , Problem-Solving
+    [ "Cryptography"
+    , "Web Development"
+    , "Misc"
+    , "Time Management"
+    , "Problem-Solving"
     ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
-          { name: JS
+          { name: "JS"
           , percentage: 95 
           },
-          { name: Web Technologies
+          { name: "Web Technologies"
           , percentage: 90
           },
-          { name: python
+          { name: "python"
           , percentage: 90
           },
-          { name: C
+          { name: "C"
           , percentage: 70
           },
         ]
@@ -70,29 +70,29 @@ skills: [
 
 # quello che te sei studiato negli anni
 educations_timeline: [
-                        { year: -
-                        , company: Technische Universität München (TUM)
-                        , title: Master degree in Computer Science
-                        , description: -
+                        { year: "-"
+                        , company: "Technische Universität München (TUM)"
+                        , title: "Master degree in Computer Science"
+                        , description: "-"
                         },
-                        { year: 2019
-                        , company: La Sapienza University of Rome
-                        , title: Bachelor degree in Computer Science
-                        , description: Vote 110/110 cum laude
+                        { year: "2019"
+                        , company: "La Sapienza University of Rome"
+                        , title: "Bachelor degree in Computer Science"
+                        , description: "Vote 110/110 cum laude"
                         },
-                        { year: 2016
-                        , company: Liceo Scientifico Augusto Righi
-                        , title: Scientifico
-                        , description: Vote: 95/100
+                        { year: "2016"
+                        , company: "Liceo Scientifico Augusto Righi"
+                        , title: "Scientifico"
+                        , description: "Vote: 95/100"
                         },
                      ]
 
 # do te sei fatto sfrutta negli anni
 experiences_timeline: [
-                        { year: 2018
-                        , company: Google Workshop
-                        , title: Winner team of Google Workshop
-                        , description: Organized by Google and Tel Aviv University.
+                        { year: "2018"
+                        , company: "Google Workshop"
+                        , title: "Winner team of Google Workshop"
+                        , description: "Organized by Google and Tel Aviv University."
                         },
                       ]
 
