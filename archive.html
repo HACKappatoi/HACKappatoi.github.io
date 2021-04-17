@@ -29,9 +29,11 @@ comments: false
   <article class="post-item">
     <h3 class="post-item-title">
       <a href="{{ post.url }}">{{ post.title | escape }}</a>
-      {%- for category in post.categories -%}
-        <span class="badge">{{ category }}</span>
-      {%- endfor -%}
+      <span class="category">
+        {%- for category in post.categories -%}
+          <span class="badge">{{ category }}</span>
+        {%- endfor -%}
+      </span>
     </h3> 
   </article>
 {%- endfor -%}

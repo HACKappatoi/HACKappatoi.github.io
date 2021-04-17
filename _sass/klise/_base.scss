@@ -391,8 +391,12 @@ mark,
   }
 }
 
-.badge {
+.category{
   position: absolute;
+  right: 0;
+}
+
+.badge {
   margin-left: 0.5rem;
   display: inline-block;
   padding: .35em .65em;
