@@ -392,6 +392,8 @@ mark,
 }
 
 .badge {
+  position: absolute;
+  margin-left: 0.5rem;
   display: inline-block;
   padding: .35em .65em;
   font-size: .75em;
