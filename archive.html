@@ -28,6 +28,9 @@ comments: false
   {%- endunless -%}
   <article class="post-item">
     <h3 class="post-item-title">
+      {%- for category in post.categories -%}
+        <span>{{ category }}</span>
+      {%- endfor -%}
       <a href="{{ post.url }}">{{ post.title | escape }}</a>
     </h3> 
   </article>
