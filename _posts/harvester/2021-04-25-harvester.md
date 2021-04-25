@@ -38,54 +38,6 @@ Options:
 > 
 ```
 
-if we select run we exit from the program
-
-```bash
-> 4
-You ran away safely!
-```
-
-if we select Stare we found a pie and we return to the main menu
-```bash
-> 3
-
-You try to find its weakness, but it seems invincible..
-Looking around, you see something inside a bush.
-[+] You found 1 🥧!
-```
-
-if we select The inventory we can drop some pie
-```bash
-> 2
-
-You have: 10 🥧
-
-Do you want to drop some? (y/n)
-> n
-```
-
-If we select to fight we can select a weapon but we are always not strong enough to fight
-```bash
-> 1
-
-Choose weapon:
-
-[1] 🗡           [2] 💣
-[3] 🏹          [4] 🔫
-> 1
-
-Your choice is: 1
-
-You are not strong enough to fight yet.
-```
-
-And if we chose some not in the menu this is the result.
-```bash
-> 5
-This was never an option!
-```
-
-
 Lets see now the interesting function that manage thos options:
 
 
