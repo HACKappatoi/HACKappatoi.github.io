@@ -4,7 +4,7 @@ description: >- # site description
   Hackappatoi team website
 lang: en-US # default lang
 timezone: Europe/Rome # set your timezone
-image:  # This image used for Open Graph more info https://ogp.me/
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/HACKappatoi # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
