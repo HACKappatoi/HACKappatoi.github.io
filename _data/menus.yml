@@ -13,7 +13,10 @@
 - title: our results
   url: /results/
   external: false
-
+  
+- title: contact us
+  url: https://forms.gle/xbxAhtjynJLGfQvd6
+  external: true
 
 
 # Example:
