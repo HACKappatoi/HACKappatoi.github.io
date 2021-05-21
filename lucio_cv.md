@@ -30,7 +30,7 @@ github: https://github.com/G0D0G
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ web, stego, reverse, coding ]
+    [ web, forensic, reverse, coding ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
