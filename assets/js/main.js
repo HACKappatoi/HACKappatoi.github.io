@@ -2,8 +2,8 @@
   // Theme switch
   const body = document.body;
   const lamp = document.getElementById("mode");
-  const sapienza_logo_dark = document.getElementById('dark_theme')
-  const sapienza_logo_light = document.getElementById('light_theme')
+  const sapienza_logo_dark = document.getElementById('dark_logo')
+  const sapienza_logo_light = document.getElementById('light_logo')
 
   const toggleTheme = (state) => {
     if (state === "dark") {
@@ -12,17 +12,18 @@
 
       if (sapienza_logo_light.display === 'none'){
         sapienza_logo_light.display = 'block'
-        sapienza_logo_dark.classList.add('display', 'none')
+        sapienza_logo_dark.display = 'none'
       }
 
     } else if (state === "light") {
       localStorage.setItem("theme", "dark");
       body.setAttribute("data-theme", "dark");
+
       if (sapienza_logo_dark.display === 'none'){
         sapienza_logo_dark.display = 'block'
-        sapienza_logo_light.classList.add('display', 'none')
+        sapienza_logo_light.display = 'none'
       }
-      
+
     } else {
       initTheme(state);
     }
