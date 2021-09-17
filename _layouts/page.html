@@ -12,12 +12,22 @@ layout: compress
   <script>
     const body = document.body;
     const data = body.getAttribute("data-theme");
+    const sapienza_logo_dark = document.getElementById('dark_logo')
+    const sapienza_logo_light = document.getElementById('light_logo')
 
     const initTheme = (state) => {
       if (state === "dark") {
         body.setAttribute("data-theme", "dark");
+        if (sapienza_logo_light.display === 'none'){
+          sapienza_logo_light.display = 'block'
+          sapienza_logo_dark.display = 'none'
+        }
       } else if (state === "light") {
         body.removeAttribute("data-theme");
+        if (sapienza_logo_dark.display === 'none'){
+          sapienza_logo_dark.display = 'block'
+          sapienza_logo_light.display = 'none'
+        }
       } else {
         localStorage.setItem("theme", data);
       }
