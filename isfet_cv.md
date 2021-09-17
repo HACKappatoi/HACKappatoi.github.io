@@ -14,7 +14,7 @@ permalink: /isfet/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: I've always loved computers, since I was young. I've recently discovered the world of CyberSecurity and it's amazing 🔐! Passionate about web mechanics and crypto systems, I'm also interested in hidden secrets and Stego challenge 👀
+bio: I've always loved computers, since I was young. I've recently discovered the world of CyberSecurity and it's amazing 🔐! Passionate about web mechanics. I really love Forensics  and I'm also interested in hidden secrets and Stego challenge 👀
 
 residence: Rome
 
@@ -24,7 +24,7 @@ residence: Rome
 # commenta tutto
 email: michele.dilollo@protonmail.com
 linkedin: https://www.linkedin.com/in/michele-dilollo-831595176/
-instagram: https://www.instagram.com/m_dilollo/ 
+instagram: https://www.instagram.com/isfet_/
 github: https://github.com/isf3t
 #twitter: tw
 

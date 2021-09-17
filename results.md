@@ -10,6 +10,9 @@ comments: false
 
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
+| 7       | COMPFEST CTF 2021 | 3679   |
+| 43       | CTFZone 2021| 2143   |
+| 26       | 3kCTF-2021 | 1193   |
 | 54       | Cyber Apocalypse 2021 | 12225   |
 | 4	       | RITSEC CTF 2021   | 8342        |
 | 9        | Shakti CTF        | 2665        |
