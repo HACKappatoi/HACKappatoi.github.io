@@ -6,7 +6,7 @@
 
   const toggleTheme = (state) => {
     if (state === "dark" || state === 'light') {
-      localStorage.setItem("theme", "light");
+      localStorage.setItem("theme", "dark");
       body.removeAttribute("data-theme");
 
     } /*else if (state === "light") {
