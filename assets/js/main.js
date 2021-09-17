@@ -9,13 +9,20 @@
     if (state === "dark") {
       localStorage.setItem("theme", "light");
       body.removeAttribute("data-theme");
-      sapienza_logo_light.classList.remove('display')
-      sapienza_logo_dark.classList.add('display', 'none')
+
+      if (sapienza_logo_light.display === 'none'){
+        sapienza_logo_light.display = 'block'
+        sapienza_logo_dark.classList.add('display', 'none')
+      }
+
     } else if (state === "light") {
       localStorage.setItem("theme", "dark");
       body.setAttribute("data-theme", "dark");
-      sapienza_logo_light.classList.add('display', 'none')
-      sapienza_logo_dark.classList.remove('display')
+      if (sapienza_logo_dark.display === 'none'){
+        sapienza_logo_dark.display = 'block'
+        sapienza_logo_light.classList.add('display', 'none')
+      }
+      
     } else {
       initTheme(state);
     }
