@@ -10,6 +10,7 @@ comments: false
 
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
+| 90       | DownUnder CTF 2021 | 3486   |
 | 7       | COMPFEST CTF 2021 | 3679   |
 | 43       | CTFZone 2021| 2143   |
 | 26       | 3kCTF-2021 | 1193   |
