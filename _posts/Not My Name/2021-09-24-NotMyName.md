@@ -7,7 +7,7 @@ author: isfet
 image_pacchetti: /assets/posts_images/NotMyName/notmyname.pcapng-pacchetti.png
 image_pacchetti-arp: /assets/posts_images/NotMyName/notmyname.pcapng-ARP.png
 image_pacchetti-dns: /assets/posts_images/NotMyName/notmyname.pcapng-DNS.png
-image_pacchetti-HTTP: /assets/posts_images/NotMyName/notmyname.pcapng-HTTP.png
+image_pacchetti-http: /assets/posts_images/NotMyName/notmyname.pcapng-HTTP.png
 image_res: /assets/posts_images/NotMyName/res.txt.png
 image_cyberchef: /assets/posts_images/NotMyName/cyberchef.png
 ---
