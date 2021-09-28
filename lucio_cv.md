@@ -4,7 +4,7 @@ layout: cv
 
 # info per il cv 
 nome: Lucian Medrihan
-nick: lvcivn
+nick: 1vcian
 profile_image: /assets/img/lucio.jpeg
 # link a cui la pagina é mappata nel sito
 # metti il nick /{{nick}}/
@@ -22,7 +22,7 @@ residence: Rome
 # commenta tutto
 email: medrihanlucian@gmail.com
 linkedin: https://www.linkedin.com/in/lume/
-instagram: https://www.instagram.com/lvcivn/ 
+instagram: https://www.instagram.com/1vcian/ 
 github: https://github.com/G0D0G
 #twitter: tw
 
@@ -30,19 +30,15 @@ github: https://github.com/G0D0G
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ web, forensic, reverse, coding ]
+    [ forensic, misc, coding ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
           { name: "Js and derived"
-          , percentage: 90
+          , percentage: 69
           },
           { name: "python"
-          , percentage: 85
-          },{ name: "C"
-          , percentage: 70
-          },{ name: "ia32"
-          , percentage: 60
+          , percentage: 69
           }
         ]
 

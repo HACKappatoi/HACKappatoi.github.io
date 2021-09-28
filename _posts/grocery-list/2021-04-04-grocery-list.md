@@ -3,7 +3,7 @@ layout: post
 title:  "[Shakti CTF] Grocery List"
 date:   "2021-04-04"
 categories: MISC
-author: lvcivn
+author: 1vcian
 ---
 
 In this 200 points challenge from **ShaktiCon** we get a txt with a base64 string: 
