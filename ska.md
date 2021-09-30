@@ -14,7 +14,7 @@ permalink: /ska/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: -
+bio: "-"
 
 residence: Rome
 
