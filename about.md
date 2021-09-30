@@ -11,12 +11,15 @@ We are Hackappatoi, we are a team composed mainly by students of cybersecurity a
 ## Members
 
  [Davide Brian Di Campi (@voidPtr)](/voidptr/)  
- [Federico Mastrigiacomo (@unleashed)](/unleashed/)   
- [Lucian Medrihan (@lvcivn)](/lvcivn/)  
- [Michele Dilollo (@isfet)](/isfet/)  
- [Pietro Mazzini (@myasnik)](/myasnik/)    
- [Riccardo Pagliuca (@capithanos)](/capithanos/)   
  [Tiziano Colagrossi (@eurus)](/eurus/)   
+ [Michele Dilollo (@isfet)](/isfet/)  
+ [Lucian Medrihan (@1vcian)](/1vcian/)  
+ [Riccardo Pagliuca (@capithanos)](/capithanos/)   
+ [Pietro Mazzini (@myasnik)](/myasnik/)    
+ [Federico Mastrigiacomo (@unleashed)](/unleashed/)   
+ [Leonardo Persiani (@leo1098)](/leo1098/)   
+ [Irene Orchi (@SinonSniperH)](/SinonSniperH/)   
+ [Luca Scarmozzino (@ska)](/ska/)   
  
  
  

@@ -72,7 +72,7 @@ skills: [
 
 # quello che te sei studiato negli anni
 educations_timeline: [
-                        { year: -
+                        { year: "-"
                         , company: La Sapienza University of Rome
                         , title: Master Degree in Cybersecurity
                         , description: Rome
@@ -91,12 +91,12 @@ educations_timeline: [
 
 # do te sei fatto sfrutta negli anni
 experiences_timeline: [
-                        { year: 2011 - 2015
+                        { year: "2011 - 2015"
                         , company: Fondazione Internazionale Fatebenefratelli
                         , title: Tech Support
                         , description: Rome
                         },
-			{ year: 2016 - 2018
+			{ year: "2016 - 2018"
                         , company: Mancini Detective S.r.l.s.
                         , title: Private Eye
                         , description: Rome

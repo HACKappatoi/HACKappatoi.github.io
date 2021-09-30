@@ -8,7 +8,7 @@ nick: 1vcian
 profile_image: /assets/img/lucio.jpeg
 # link a cui la pagina é mappata nel sito
 # metti il nick /{{nick}}/
-permalink: /lvcivn/
+permalink: /1vcian/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
