@@ -14,7 +14,7 @@ permalink: /SinonSniperH/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: Thecnology has always fascinated me and curiosity has bought me closer and closer to it. I started by 'dissecting' old PCs and mobile phones, then moving on to the software part. Only recently I approached cybersecurity, but it was enough to understand that it is really interesting.
+bio: "Thecnology has always fascinated me and curiosity has bought me closer and closer to it. I started by 'dissecting' old PCs and mobile phones, then moving on to the software part. Only recently I approached cybersecurity, but it was enough to understand that it is really interesting."
 
 residence: Rome
 
