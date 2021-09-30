@@ -90,7 +90,17 @@ educations_timeline: [
                      ]
 
 # do te sei fatto sfrutta negli anni
-# experiences_timeline: [
-
+experiences_timeline: [
+                        { year: "2011 - 2015"
+                        , company: Fondazione Internazionale Fatebenefratelli
+                        , title: Tech Support
+                        , description: Rome
+                        },
+			{ year: "2016 - 2018"
+                        , company: Mancini Detective S.r.l.s.
+                        , title: Private Eye
+                        , description: Rome
+                        },
+                      ]
 
 ---
