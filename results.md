@@ -10,8 +10,11 @@ comments: false
 
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
+| 116	   | ASIS CTF Quals 2021 |	151      |
+| 5	       | Jornadas 2021	     | 9927       |
+| 42	   | Reply Cyber Security Challenge 2021 | 	1600 |
 | 90       | DownUnder CTF 2021 | 3486   |
-| 7       | COMPFEST CTF 2021 | 3679   |
+| 7        | COMPFEST CTF 2021 | 3679   |
 | 43       | CTFZone 2021| 2143   |
 | 26       | 3kCTF-2021 | 1193   |
 | 54       | Cyber Apocalypse 2021 | 12225   |
