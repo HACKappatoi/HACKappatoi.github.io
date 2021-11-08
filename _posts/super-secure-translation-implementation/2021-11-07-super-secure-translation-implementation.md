@@ -31,12 +31,12 @@ We need one more step before starting to build the payload: in app.py, before de
 </figure>
 There are some useful functions to convert a character in its ascii decimal notation and vice-versa, and a function that evaluates an input if it does not contain words from a blacklist, and if its initials 4 characters are not "open" or "eval".
 
-First things first, let's try if we can make a simple template injection. Since we know we are on flask, let's try something that is not forbidden by the detect_remove_hacks() function, for example {{6*6}}.
+First things first, let's try if we can make a simple template injection. Since we know we are on flask, let's try something that is not forbidden by the detect_remove_hacks() function, for example {%raw%}{{6*6}}{%endraw%}.
 <figure>
 <img src="{{ page.payloadBase_img }}" alt="payloadBase">
 </figure>
 
-Perfect, now we are sure that there's a way of making the server do what we want. The question is, how? We have only a bunch of chars to use, and there's not a payload using only that chars. My first answer was to try using ord() and chr() functions (python built-ins). But for some reason the server returns 500 if we try to use built-in functions inside the payload. So it came to my mind the custom filters implemented by filters.py. We can chain them to obtain another character starting from one of the allowed chars. For example, to obtain "a" we could do something like {{("b"|order-1)|ch}}:
+Perfect, now we are sure that there's a way of making the server do what we want. The question is, how? We have only a bunch of chars to use, and there's not a payload using only that chars. My first answer was to try using ord() and chr() functions (python built-ins). But for some reason the server returns 500 if we try to use built-in functions inside the payload. So it came to my mind the custom filters implemented by filters.py. We can chain them to obtain another character starting from one of the allowed chars. For example, to obtain "a" we could do something like {%raw%}{{("b"|order-1)|ch}}{%endraw%}:
 <figure>
 <img src="{{ page.payloadFilter_img }}" alt="payloadFilter">
 </figure>
@@ -46,7 +46,7 @@ The problem now is the max lenght of the payload of 161 chars.
 I wrote a python script to automate the translation of a char to its equivalent in the order|ch chain, and spent many time optimizing it to reduce the number of characters used. This was painful.  
 
 Finally I came up with a payload, but it was of something like 174 chars. The ultimate "golf" of my code to reduce its length was to substitute the order part with its equivalent in number operations, using only the digits in the whitelist (otherwise we should translate them).
-For example {{('l'|order+4)|ch}} == {{(111+1)|ch}} == "p".
+For example {%raw%}{{('l'|order+4)|ch}} == {{(111+1)|ch}} == "p"{%endraw%}.
 I've done this manually because the time was almost finished and I didn't had time to automate it, but here's the script to obtain the payload until this last translation.
 ```python
 import requests
@@ -164,7 +164,7 @@ else:
 In the code above there are some commands I tried along the way ("cmd" variable).
 The final payload is (open("/flag").read()). The external parenthesis are there to avoid the control in the e() filter. Its translations is:
 ```text
-{{('(o'%2B(66%2B44%2B1%2B1)|ch%2B'e'%2B(66%2B44)|ch%2B'("'%2B(44%2B1%2B1%2B1)|ch%2B(66%2B6*6)|ch%2B'l'%2B(4*4*6%2B1)|ch%2B(66%2B6*6%2B1)|ch%2B'")'%2B(46)|ch%2B're'%2B(4*4*6%2B1)|ch%2B'd())')|e}}
+{%raw%}{{('(o'%2B(66%2B44%2B1%2B1)|ch%2B'e'%2B(66%2B44)|ch%2B'("'%2B(44%2B1%2B1%2B1)|ch%2B(66%2B6*6)|ch%2B'l'%2B(4*4*6%2B1)|ch%2B(66%2B6*6%2B1)|ch%2B'")'%2B(46)|ch%2B're'%2B(4*4*6%2B1)|ch%2B'd())')|e}}{%endraw%}
 ```
 Its lenght is of 142 chars ("%2B" is translated in "+", so it is counted as a single char). Probably there are shorter payloads, but this has done the trick for me. 
 Sending it to the server will give us our flag.
