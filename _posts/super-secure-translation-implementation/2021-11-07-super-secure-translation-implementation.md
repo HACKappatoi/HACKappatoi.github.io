@@ -2,7 +2,7 @@
 layout: post
 title:  "[DAMCTF] super-secure-translation-implementation"
 date:   "2021-11-07"
-categories: Web, Golf
+categories: [Web, Golf]
 author: voidPtr
 app_img: /assets/posts_images/super-secure-translation-implementation/app.PNG
 check_img: /assets/posts_images/super-secure-translation-implementation/check.PNG
