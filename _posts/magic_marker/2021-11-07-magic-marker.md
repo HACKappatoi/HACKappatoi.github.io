@@ -2,7 +2,7 @@
 layout: post
 title:  "[DAMCTF] Magic-marker"
 date:   "2021-11-07"
-categories: Pwn
+categories: PWN
 author: Eurus
 ---
 
