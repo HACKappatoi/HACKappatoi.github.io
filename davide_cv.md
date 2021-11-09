@@ -33,7 +33,7 @@ github: https://github.com/davidedc97
 # famose a capi
 knowledges:
     [ Web security
-    , Pwn
+#    , Pwn
     , Reverse
     , Misc
     , Problem solving

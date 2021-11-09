@@ -1,24 +1,22 @@
-- title: home
+- title: Home
   url: /
   external: false
 
-- title: about
+- title: About
   url: /about/
   external: false # set true if you using external link, see below
 
-- title: writeups
+- title: Writeups
   url: /archive/
   external: false
 
-- title: our results
+- title: Our results
   url: /results/
   external: false
-  
-- title: contact us
+
+- title: Contact us
   url: https://forms.gle/xbxAhtjynJLGfQvd6
   external: true
-
-
 # Example:
 # - title: github
 #   url: https://github.com/piharpi/jekyll-klise
