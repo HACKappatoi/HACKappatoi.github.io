@@ -89,49 +89,6 @@ for x in sm.deadended:
                 ded.append(x)
 
 valid = ded[0].posix.dumps(0) # dump of the stdin
-#!/usr/bin/env python
-
-import angr 
-import claripy
-import time
-
-
-def main():
-
-    input_len = 20
-
-    p = angr.Project('./hard')
-
-    flag_chars = [claripy.BVS(f'flag_{i}',8) for i in range(input_len)]
-    flag = claripy.Concat( *flag_chars + [claripy.BVV(b'\n')] )
-
-    st = p.factory.full_init_state(
-                args=['./hard'],
-                add_options=angr.options.unicorn,
-                stdin=flag
-            )
-
-    for c in flag_chars:
-        st.solver.add(c < 0x7f )
-        st.solver.add(c > 0x20 )
-
-    sm = p.factory.simulation_manager(st)
-    sm.run()
-
-    ded = []
-    for x in sm.deadended:
-        if b'YAY' in x.posix.dumps(1):
-            ded.append(x)
-
-    valid = ded[0].posix.dumps(0)
-    return valid
-
-
-if __name__ == "__main__":
-    before = time.time()
-    print(main())
-    after = time.time()
-    print("Time elapsed: {}".format(after - before))print(valid)
 ```
 
 
