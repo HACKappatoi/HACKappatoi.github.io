@@ -64,11 +64,11 @@ we dont need to leak the version of the glibc version since the author of the ch
 For semplicity I have used the fmtstr_payload function of the pwntools library.
 
 From the pwntools documentation:
-```
-    pwnlib.fmtstr.fmtstr_payload(offset, writes, numbwritten=0, write_size='byte') → str
-```
 
-    Makes payload with given parameter. It can generate payload for 32 or 64 bits architectures. The size of the addr is taken from context.bits
+pwnlib.fmtstr.fmtstr_payload(offset, writes, numbwritten=0, write_size='byte') → str
+
+Makes payload with given parameter. It can generate payload for 32 or 64 bits architectures. The size of the addr is taken from context.bits
+
 ```   
     offset (int) – the first formatter’s offset you control
     writes (dict) – dict with addr, value {addr: value, addr2: value2}
