@@ -2,7 +2,7 @@
 layout: post 
 title:  "[CA HTB] Harvester"
 date: "2021-04-25" 
-categories: PWN 
+categories: [Pwn, Fsb]
 author: eurus 
 ---
 

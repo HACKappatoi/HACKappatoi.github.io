@@ -2,7 +2,7 @@
 layout: post 
 title:  "[CA HTB] Minefield"
 date: "2021-04-25" 
-categories: PWN 
+categories: Pwn 
 author: eurus 
 ---
 

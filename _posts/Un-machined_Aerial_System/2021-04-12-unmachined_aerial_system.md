@@ -2,7 +2,7 @@
 layout: post
 title:  "[RITSEC CTF 21] Un-machined Aerial System"
 date:   "2021-04-12"
-categories: Reverse
+categories: [Reverse, angr]
 author: eurus
 ---
 
