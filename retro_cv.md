@@ -82,11 +82,6 @@ educations_timeline: [
                         , title: "Winner team of Google Workshop"
                         , description: "Organized by Google and Tel Aviv University"
                         },
-                        { year: 2016
-                        , company: "Liceo Scientifico Isacco Newton"
-                        , title: "Liceo Scientifico"
-                        , description: "Vote: 100/100"
-                        },
                         
                      ]
 
