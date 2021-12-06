@@ -1,56 +1,63 @@
 ---
 # non toccare dio caro
-layout: cv
+layout: cv # e invece tocco tutto zio porcone
 
 # info per il cv 
 nome: Luca Mongelli
 nick: retro
-profile_image: /assets/img/retro.jpg
+profile_image: /assets/img/davide.jfif
 #cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
-# metti il nick /retro/
+# metti il nick /{{voidPtr}}/
 permalink: /retro/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: "I love to Hack and see what is behind the screen of our computers"
+bio: "Cybersecurity and coding passionate, I love to shorten my life by participating in CTF and coding challenges. Beyond computers, guitar player 🎸 and climbing 🧗‍♂️"
 
-residence: Taranto
+residence: Rome
 
 # social link 
 # se non  ce l'hai commentalo
 # da qua se non voi che appare roba poi 
 # commenta tutto
-email: retro4hack@gmail.com
-linkedin: https://www.linkedin.com/in/luca-mongelli-4427aa21a/
-instagram: https://www.instagram.com/______retro______/
-github: https://github.com/retrohacking
-twitter: https://twitter.com/retrohacking
-site: https://retro4hack.wordpress.com/
+email: davidedc1997@gmail.com
+linkedin: https://www.linkedin.com/in/davide-di-campi-6b8288209/
+instagram: https://www.instagram.com/davide.dc97/
+github: https://github.com/davidedc97
+# twitter: tw
 
 # le tag con le conoscenze
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ Reverse Engineering
-    , Binary Exploitation
-    , Problem-Solving
+    [ Web security
+#    , Pwn
+    , Reverse
+    , Misc
+    , Problem solving
     ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
-          { name: "Java/Android Development"
-          , percentage: 50 
+          { name: JS
+          , percentage: 90 
           },
-          { name: "C"
-          , percentage: 65
+          { name: Python
+          , percentage: 90
           },
-          { name: "Python"
+          { name: C
+          , percentage: 70
+          },
+          { name: PHP
+          , percentage: 75
+          },
+          { name: Web Technologies
           , percentage: 85
           },
-          { name: "IDA and Debuggers"
-          , percentage: 80
+          { name: ASM
+          , percentage: 65
           },
         ]
 
@@ -66,22 +73,44 @@ skills: [
 #                },
 #              ]
 
-# do te sei fatto sfrutta negli anni
+
+# quello che te sei studiato negli anni
 educations_timeline: [
-                        { year: "2020"
-                        , company: "University Of Rome, La Sapienza"
-                        , title: Cybersecurity
-                        , description: "Master degree, -/110"
+                        { year: "-"
+                        , company: "La Sapienza University of Rome"
+                        , title: "Master degree in Cybersecurity" 
+                        , description: "-"
+                        },
+                        { year: 2019
+                        , company: "La Sapienza University of Rome"
+                        , title: "Bachelor degree in Computer Science"
+                        , description: "Vote: 106/110"
+                        },
+                        { year: 2018
+                        , company: "Google Workshop"
+                        , title: "Winner team of Google Workshop"
+                        , description: "Organized by Google and Tel Aviv University"
                         },
                         { year: 2016
-                        , company: "University Of Bari Aldo Moro"
-                        , title: "Informatia e tecnologie per la produzione del software
-                        , description: "Bachelor degree, 100/110"
+                        , company: "Liceo Scientifico Isacco Newton"
+                        , title: "Liceo Scientifico"
+                        , description: "Vote: 100/100"
                         },
-                        { year: 2011
-                        , company: "IIS Maria Pia"
-                        , title: "Scienze applicate"
-                        , description: "Graduation, 93/100"
-                        }, 
+                        
                      ]
+
+# do te sei fatto sfrutta negli anni
+experiences_timeline: [
+                        { year: "March 2021 - June 2021"
+                        , company: "CINI (Consorzio Interuniversitario Nazionale per l'Informatica)"
+                        , title: "Organizer and teacher at Olicyber2021"
+                        , description: "I held a course of Web security and wrote some CTF challenges for the CINI training platform"
+                        },
+                        { year: "2019 - now"
+                        , company: "Tiuke SRL"
+                        , title: "Web and App developer"
+                        , description: "Client side development of web and mobile applications"
+                        },
+                      ]
+
 ---
