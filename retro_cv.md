@@ -46,12 +46,16 @@ skills: [
           { name: "C"
           , percentage: 65
           },
+           { name: "IDA and Debuggers"
+          , percentage: 80
+          },
+           { name: "Linux"
+          , percentage: 80
+          },
           { name: "Python"
           , percentage: 85
           },
-          { name: "IDA and Debuggers"
-          , percentage: 80
-          },
+         
         ]
 
 # se c'hai i certificati e sei gia 
