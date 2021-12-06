@@ -67,21 +67,27 @@ skills: [
 #              ]
 
 educations_timeline: [
-                        { year: 2020
-                        , company: "University Of Rome, La Sapienza"
-                        , title: Cybersecurity
-                        , description: "Master degree, -/110"
+                        { year: "-"
+                        , company: "La Sapienza University of Rome"
+                        , title: "Master degree in Cybersecurity" 
+                        , description: "-"
+                        },
+                        { year: 2019
+                        , company: "La Sapienza University of Rome"
+                        , title: "Bachelor degree in Computer Science"
+                        , description: "Vote: 106/110"
+                        },
+                        { year: 2018
+                        , company: "Google Workshop"
+                        , title: "Winner team of Google Workshop"
+                        , description: "Organized by Google and Tel Aviv University"
                         },
                         { year: 2016
-                        , company: "University Of Bari Aldo Moro"
-                        , title: "Informatia e tecnologie per la produzione del software
-                        , description: "Bachelor degree, 100/110"
+                        , company: "Liceo Scientifico Isacco Newton"
+                        , title: "Liceo Scientifico"
+                        , description: "Vote: 100/100"
                         },
-                        { year: 2011
-                        , company: "IIS Maria Pia"
-                        , title: "Scienze applicate"
-                        , description: "Graduation, 93/100"
-                        }, 
+                        
                      ]
 
 ---
