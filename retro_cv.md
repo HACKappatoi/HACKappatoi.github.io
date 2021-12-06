@@ -69,41 +69,21 @@ skills: [
 
 # quello che te sei studiato negli anni
 educations_timeline: [
-                        { year: "-"
-                        , company: "La Sapienza University of Rome"
-                        , title: "Master degree in Cybersecurity" 
-                        , description: "-"
-                        },
-                        { year: 2019
-                        , company: "La Sapienza University of Rome"
-                        , title: "Bachelor degree in Computer Science"
-                        , description: "Vote: 106/110"
-                        },
-                        { year: 2018
-                        , company: "Google Workshop"
-                        , title: "Winner team of Google Workshop"
-                        , description: "Organized by Google and Tel Aviv University"
+                        { year: "2020"
+                        , company: "University Of Rome, La Sapienza"
+                        , title: Cybersecurity
+                        , description: "Master degree, -/110"
                         },
                         { year: 2016
-                        , company: "Liceo Scientifico Isacco Newton"
-                        , title: "Liceo Scientifico"
-                        , description: "Vote: 100/100"
+                        , company: "University Of Bari Aldo Moro"
+                        , title: "Informatia e tecnologie per la produzione del software
+                        , description: "Bachelor degree, 100/110"
                         },
-                        
+                        { year: 2011
+                        , company: "IIS Maria Pia"
+                        , title: "Scienze applicate"
+                        , description: "Graduation, 93/100"
+                        }, 
                      ]
-
-# do te sei fatto sfrutta negli anni
-experiences_timeline: [
-                        { year: "March 2021 - June 2021"
-                        , company: "CINI (Consorzio Interuniversitario Nazionale per l'Informatica)"
-                        , title: "Organizer and teacher at Olicyber2021"
-                        , description: "I held a course of Web security and wrote some CTF challenges for the CINI training platform"
-                        },
-                        { year: "2019 - now"
-                        , company: "Tiuke SRL"
-                        , title: "Web and App developer"
-                        , description: "Client side development of web and mobile applications"
-                        },
-                      ]
 
 ---
