@@ -77,10 +77,10 @@ educations_timeline: [
                         , title: "Bachelor degree in Computer Science"
                         , description: "Vote: 106/110"
                         },
-                        { year: 2018
-                        , company: "Google Workshop"
-                        , title: "Winner team of Google Workshop"
-                        , description: "Organized by Google and Tel Aviv University"
+                        { year: 2011
+                        , company: "IIS Maria Pia"
+                        , title: "Scienze applicate"
+                        , description: "Graduation, 93/100"
                         },
                         
                      ]
