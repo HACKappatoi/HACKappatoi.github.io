@@ -66,10 +66,8 @@ skills: [
 #                },
 #              ]
 
-
-# quello che te sei studiato negli anni
 educations_timeline: [
-                        { year: "2020"
+                        { year: 2020
                         , company: "University Of Rome, La Sapienza"
                         , title: Cybersecurity
                         , description: "Master degree, -/110"
