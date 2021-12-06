@@ -70,12 +70,12 @@ educations_timeline: [
                         { year: 2020
                         , company: "La Sapienza University of Rome"
                         , title: "Master degree in Cybersecurity" 
-                        , description: "-"
+                        , description: "Master degree, -/110"
                         },
                         { year: 2016
-                        , company: "La Sapienza University of Rome"
-                        , title: "Bachelor degree in Computer Science"
-                        , description: "Vote: 106/110"
+                        , company: "University Of Bari Aldo Moro"
+                        , title: "Informatica e tecnologie per la produzione del software"
+                        , description: "Bachelor degree, 100/110"
                         },
                         { year: 2011
                         , company: "IIS Maria Pia"
