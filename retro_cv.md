@@ -14,7 +14,7 @@ permalink: /retro/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: "I love to Hack and see what is behing the screen of our computers"
+bio: "I love to Hack and see what is behind the screen of our computers"
 
 residence: Taranto
 
