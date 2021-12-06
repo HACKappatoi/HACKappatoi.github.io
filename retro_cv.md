@@ -33,32 +33,24 @@ site: https://retro4hack.wordpress.com/
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ Web security
-#    , Pwn
-    , Reverse
-    , Misc
-    , Problem solving
+    [ Reverse Engineering
+    , Binary Exploitation
+    , Problem-Solving
     ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
-          { name: JS
-          , percentage: 90 
+          { name: "Java/Android Development"
+          , percentage: 50 
           },
-          { name: Python
-          , percentage: 90
+          { name: "C"
+          , percentage: 65
           },
-          { name: C
-          , percentage: 70
-          },
-          { name: PHP
-          , percentage: 75
-          },
-          { name: Web Technologies
+          { name: "Python"
           , percentage: 85
           },
-          { name: ASM
-          , percentage: 65
+          { name: "IDA and Debuggers"
+          , percentage: 80
           },
         ]
 
