@@ -22,11 +22,12 @@ residence: Taranto
 # se non  ce l'hai commentalo
 # da qua se non voi che appare roba poi 
 # commenta tutto
-email: davidedc1997@gmail.com
-linkedin: https://www.linkedin.com/in/davide-di-campi-6b8288209/
-instagram: https://www.instagram.com/davide.dc97/
-github: https://github.com/davidedc97
-# twitter: tw
+email: retro4hack@gmail.com
+linkedin: https://www.linkedin.com/in/luca-mongelli-4427aa21a/
+instagram: https://www.instagram.com/______retro______/
+github: https://github.com/retrohacking
+twitter: https://twitter.com/retrohacking
+site: https://retro4hack.wordpress.com/
 
 # le tag con le conoscenze
 # quelle senza barra dio bo
