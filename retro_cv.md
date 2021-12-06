@@ -5,7 +5,7 @@ layout: cv # e invece tocco tutto zio porcone
 # info per il cv 
 nome: Luca Mongelli
 nick: retro
-profile_image: /assets/img/davide.jfif
+profile_image: /assets/img/retro.jpg
 #cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
@@ -14,9 +14,9 @@ permalink: /retro/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: "Cybersecurity and coding passionate, I love to shorten my life by participating in CTF and coding challenges. Beyond computers, guitar player 🎸 and climbing 🧗‍♂️"
+bio: "I love to Hack and see what is behind the screen of our computers"
 
-residence: Rome
+residence: Taranto
 
 # social link 
 # se non  ce l'hai commentalo
