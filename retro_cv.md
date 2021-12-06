@@ -84,6 +84,4 @@ educations_timeline: [
                         , description: "Graduation, 93/100"
                         }, 
                      ]
-
-
 ---
