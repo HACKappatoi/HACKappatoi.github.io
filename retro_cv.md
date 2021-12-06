@@ -67,12 +67,12 @@ skills: [
 #              ]
 
 educations_timeline: [
-                        { year: "-"
+                        { year: 2020
                         , company: "La Sapienza University of Rome"
                         , title: "Master degree in Cybersecurity" 
                         , description: "-"
                         },
-                        { year: 2019
+                        { year: 2016
                         , company: "La Sapienza University of Rome"
                         , title: "Bachelor degree in Computer Science"
                         , description: "Vote: 106/110"
