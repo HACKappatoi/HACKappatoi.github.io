@@ -14,7 +14,7 @@ comments: false
 |---------:|:-----------------:|------------:|
 | 7	   | 	Pragyan CTF 2022 |		8266      |
 
-## 2021
+## 2021 10th position in Italy 
 
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
