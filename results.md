@@ -8,8 +8,23 @@ comments: false
 
 [Our ctf time page](https://ctftime.org/team/140428)
 
+## 2022
+
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
+| 7	   | 	Pragyan CTF 2022 |		8266      |
+
+## 2021
+
+| Position | CTF Name          | points      |
+|---------:|:-----------------:|------------:|
+| 68	   | 	Dragon CTF 2021 |		391      |
+| 72	   | CyberSecurityRumble CTF |	420      |
+| 48	   | HTB Uni CTF 2021 - Quals |	3025      |
+| 46	   | Intent CTF 2021 |	300      |
+| 18	   | K3RN3LCTF |		3919      |
+| 38	   | DamCTF 2021 |	3744      |
+| 98	   | UUTCTF 2021 |	250      |
 | 116	   | ASIS CTF Quals 2021 |	151      |
 | 5	       | Jornadas 2021	     | 9927       |
 | 42	   | Reply Cyber Security Challenge 2021 | 	1600 |
