@@ -23,8 +23,8 @@ residence: Rome
 email: medrihanlucian@gmail.com
 linkedin: https://www.linkedin.com/in/lume/
 instagram: https://www.instagram.com/1vcian/ 
-github: https://github.com/G0D0G
-#twitter: tw
+github: https://github.com/1vcian
+#twitter: https://twitter.com/1vcian
 
 # le tag con le conoscenze
 # quelle senza barra dio bo
