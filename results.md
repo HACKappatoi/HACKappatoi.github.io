@@ -12,6 +12,8 @@ comments: false
 
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
+| 14	 |  VishwaCTF 2022	 |    12869     |
+|	5	   |  DaVinciCTF 2022	 |    8878      |
 | 7	   | 	Pragyan CTF 2022 |		8266      |
 
 ## 2021 10th position in Italy 
