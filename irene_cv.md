@@ -5,7 +5,7 @@ layout: cv
 # info per il cv 
 nome: Irene Orchi
 nick: SinonSniperH
-profile_image: /assets/img/avatar.jpg
+profile_image: /assets/img/irene.jpg
 #cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
