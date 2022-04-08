@@ -20,7 +20,7 @@ We are Hackappatoi, we are a team mainly composed by students of cybersecurity a
  [Leonardo Persiani (@leo1098)](/leo1098/)   
  [Irene Orchi (@SinonSniperH)](/SinonSniperH/)   
  [Luca Scarmozzino (@ska)](/ska/)  
- [Luca Mongelli (@retro)](/retro/)
+ [Luca Mongelli (@retro)](/retro/)  
  [Gabriele Duchi (@psycoshadw)](/psycoshadw/)
  
  
