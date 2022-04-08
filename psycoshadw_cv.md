@@ -69,7 +69,7 @@ skills: [
 
 # quello che te sei studiato negli anni
 educations_timeline: [
-			{ year: In Progress
+			{ year: "In Progress"
                         , company: Master Degree
                         , title: Cybersecurity degree
                         , description: La Sapienza University of Rome
