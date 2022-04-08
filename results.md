@@ -12,6 +12,7 @@ comments: false
 
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
+|3	|RITSEC CTF 2022	|8933 |
 | 14	 |  VishwaCTF 2022	 |    12869     |
 |	5	   |  DaVinciCTF 2022	 |    8878      |
 | 7	   | 	Pragyan CTF 2022 |		8266      |
