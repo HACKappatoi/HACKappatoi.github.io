@@ -6,7 +6,7 @@ layout: cv
 nome: Gabriele Duchi
 nick: psycoshadw
 profile_image: /assets/img/psyco.jpg
-cv_file: assets.pdf
+#cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
 # metti il nick /{{nick}}/
