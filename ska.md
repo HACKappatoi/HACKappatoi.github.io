@@ -5,7 +5,7 @@ layout: cv
 # info per il cv 
 nome: Luca Scarmozzino
 nick: ska
-profile_image: /assets/img/ska.jpg
+profile_image: /assets/img/ska.jpeg
 #cv_file: assets.pdf
 
 # link a cui la pagina é mappata nel sito
