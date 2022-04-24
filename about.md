@@ -6,7 +6,7 @@ excerpt: Excerpts about us page
 comments: false
 ---
 
-We are Hackappatoi, we are a team mainly composed by students of cybersecurity at La Sapienza University of Rome. We try to attend one CTF a week to keep our minds trained and have fun while giving our best 😉  
+We are Hackappatoi, a team mainly composed by students of cybersecurity at La Sapienza University of Rome. We try to attend one CTF a week to keep our minds trained and have fun while giving our best 😉  
 
 ## Members
 
