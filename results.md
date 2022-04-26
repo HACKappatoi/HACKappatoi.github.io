@@ -12,10 +12,10 @@ comments: false
 
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
-|1	|Incognito 3.0|	9276
-|24	|TAMUctf 2022|	2946
-|63	|Securinets CTF Quals 2022|	1341	
-|8	|HackPack CTF 2022|	2800	
+|1	|Incognito 3.0|	9276|
+|24	|TAMUctf 2022|	2946|
+|63	|Securinets CTF Quals 2022|	1341	|
+|8	|HackPack CTF 2022|	2800	|
 |3	|RITSEC CTF 2022	|8933 |
 | 14	 |  VishwaCTF 2022	 |    12869     |
 |	5	   |  DaVinciCTF 2022	 |    8878      |
