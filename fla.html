@@ -12,7 +12,7 @@
   
   <h1 id="lol"></h1>
   <script>
-async function postData(url = '', data = {}) {
+var postData= async function(url = '', data = {}) {
   // Default options are marked with *
   const response = await fetch(url, {
     method: 'POST', // *GET, POST, PUT, DELETE, etc.
@@ -30,10 +30,8 @@ async function postData(url = '', data = {}) {
   return response.json(); // parses JSON response into native JavaScript objects
 }
 
-postData('127.0.0.1:8080/flag', { answer: 42 })
-  .then(data => {
-    JSON.stringify(data)
-  });
+postData('127.0.0.1:8080/flag', { answer: 42 }).then(response => response.json())
+  .then(data => document.getElementById("lol").innerText=data);
 
 </script>
   
