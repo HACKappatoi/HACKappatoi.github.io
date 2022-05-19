@@ -4,10 +4,6 @@ title:  "[CyberApocalypse 22] Intergalactic Recovery"
 date:   "2022-05-15"
 categories: Forensics
 author: isfet
-image_pacchetti: /assets/posts_images/IFTPP/pacchetti.png
-image_rfc: /assets/posts_images/IFTPP/rfc.png
-image_chiavi: /assets/posts_images/IFTPP/chiavi.png
-image_flag: /assets/posts_images/IFTPP/lol.jfif
 ---
 
 In this challenge from CyberApocalypse 22 provide only three .img file. 
