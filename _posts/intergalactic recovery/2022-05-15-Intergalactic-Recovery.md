@@ -14,7 +14,9 @@ Now the only problem is how to fix them in order to recovery the files. After a 
 Inspecting the disks with an hex editor (or simply checking the file size, but we prefer longer operations right? :) ) reveal that the disk 3 is the corrupted one
 
 ![](/assets/posts_images/intergalactic_recovery/disk1.png)
+
 ![](/assets/posts_images/intergalactic_recovery/disk2.png)
+
 ![](/assets/posts_images/intergalactic_recovery/disk3.png)
 
 Now we can try to recovery the date inside disk3 by xoring disk1 and disk2 images.
