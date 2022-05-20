@@ -19,11 +19,11 @@ Inspecting the disks with an hex editor (or simply checking the file size, but w
 
 ![](/assets/posts_images/intergalactic_recovery/disk3.png)
 
-Now we can try to recovery the date inside disk3 by xoring disk1 and disk2 images.
+Now we can try to recovery the data inside disk3 by xoring disk1 and disk2 images.
 
 ![](/assets/posts_images/intergalactic_recovery/XorFiles.png)
 
-With the obtained disk we have to reconstruct the raid 5 array. we can do this boy mounting the 3 disks using losetup usign looback interfaces.
+With the obtained disk we have to reconstruct the raid 5 array. we can do this by mounting the 3 disks using losetup usign looback interfaces.
 
 ```
 losetup /dev/loop1 disk1.img
@@ -31,7 +31,7 @@ losetup /dev/loop2 disk2.img
 losetup /dev/loop3 disk3.img
 ```
 
-We can use then mdadm, a tool that allow to manage disk s and in our case, to create a disk array. The hint released before, says that the oreder of disks is not necessarilly disk1, disk2 and disk3, but it can be different. So now we have to guess the order.
+We can use then mdadm, a tool that allow to manage disks and in our case, to create a disk array. The hint released before, says that the order of disks is not necessarilly disk1, disk2 and disk3, but it can be different. So now we have to guess the order.
 
 ```
 This one will give us the right disk array.
