@@ -46,3 +46,4 @@ mount /dev/md1 /mnt/chall/
 
 And going to that path will give us a pdf file with the flag.
 
+![](/assets/posts_images/intergalactic_recovery/Immagine 2022-05-19 234238.png)
