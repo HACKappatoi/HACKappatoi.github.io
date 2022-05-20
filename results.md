@@ -12,6 +12,11 @@ comments: false
 
 | Position | CTF Name          | points      |
 |---------:|:-----------------:|------------:|
+|63	|Cyber Apocalypse CTF 2022: Intergalactic Chase|		9550|
+|72	|m0leCon CTF 2022 Teaser|	176|
+|23	|San Diego CTF 2022|	4360|
+|25	|NahamCon CTF 2022|	2521|
+|60	|ångstromCTF 2022|	11679|
 |1	|Incognito 3.0|	9276|
 |24	|TAMUctf 2022|	2946|
 |63	|Securinets CTF Quals 2022|	1341	|
