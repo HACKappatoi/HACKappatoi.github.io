@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title:  "[BCACTF] Notetaker Wasm"
-date: "2022-5-6" 
+date: "2022-6-6" 
 categories: [Pwn, Unsafe-Unlink, Wasm]
 author: eurus 
 ---
