@@ -27,7 +27,7 @@ linkedin: https://www.linkedin.com/in/luca-mongelli-4427aa21a/
 instagram: https://www.instagram.com/______retro______/
 github: https://github.com/retrohacking
 twitter: https://twitter.com/retrohacking
-site: https://retro4hack.wordpress.com/
+site: https://retrohacking.github.io/
 
 # le tag con le conoscenze
 # quelle senza barra dio bo
