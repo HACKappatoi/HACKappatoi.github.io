@@ -14,7 +14,7 @@ permalink: /isfet/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: I've always loved computers, since I was young. I've recently discovered the world of CyberSecurity and it's amazing 🔐! Passionate about web mechanics. I really love Forensics  and I'm also interested in hidden secrets and Stego challenge 👀
+bio: I've always loved computers, since I was young. I've recently discovered the world of CyberSecurity and it's amazing 🔐! Passionate about web mechanics and protocol. I really love Forensics, information analysis and recovery and I'm also interested in hidden secrets and Crypto challenges 👀
 
 residence: Rome
 
@@ -32,19 +32,25 @@ github: https://github.com/isf3t
 # quelle senza barra dio bo
 # famose a capi
 knowledges:
-    [ Web
-    , Forensics
-    , Stego
+    [ Forensics
+    , Information Recovery
+    , Web
     , Crypto
     ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
 skills: [
+          { name: TPC stack
+          , percentage: 80
+          },
+          { name: Volatility
+          , percentage: 80
+          },
           { name: C
           , percentage: 90
           },
           { name: Python
-          , percentage: 80
+          , percentage: 90
           },
           { name: Js and Derived
           , percentage: 90
