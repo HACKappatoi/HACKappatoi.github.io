@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[CSAW]: Anya Gacha"
+title: "[CSAW] Anya Gacha"
 date:   "2022-09-11"
 categories: Reverse
 author: "Retro"
