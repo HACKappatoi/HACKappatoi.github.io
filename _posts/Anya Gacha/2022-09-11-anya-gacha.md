@@ -70,6 +70,7 @@ Well done! That was correct.
 Let's try now the alternative method and hardcode the data for the post request. I've just modified my script to get the 1000th computed hash and rightclicked on the Update module to edit it:
 
 ![](/assets/posts_images/anyagacha/7-module.png)
+
 **REMEMBER TO SAVE ALL THE EDITS AFTER COMPILING THE MODULE**
 Now the payload of the request will be always the same. 
 
