@@ -4,7 +4,6 @@ title: "[CSAW]: Anya Gacha"
 date:   "2022-09-11"
 categories: Reverse
 author: "Retro"
-tags: Hacking ReverseEngineering
 ---
 
 This has been the first CTF challenge that involved a little GamePwn that I've ever found. Will I be able to find the rare character Anya and her flag?
