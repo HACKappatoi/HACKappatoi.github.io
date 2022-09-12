@@ -72,6 +72,7 @@ Let's try now the alternative method and hardcode the data for the post request.
 ![](/assets/posts_images/anyagacha/7-module.png)
 
 **REMEMBER TO SAVE ALL THE EDITS AFTER COMPILING THE MODULE**
+
 Now the payload of the request will be always the same. 
 
 Let's make a wish now:
