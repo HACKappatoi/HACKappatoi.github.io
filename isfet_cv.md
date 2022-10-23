@@ -46,6 +46,9 @@ skills: [
           { name: Volatility
           , percentage: 80
           },
+          { name: Dump analysis
+          , percentage: 80
+          },
           { name: C
           , percentage: 90
           },
