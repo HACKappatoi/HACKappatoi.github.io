@@ -14,9 +14,8 @@ permalink: /unleashed/
 
 # biografia non serve dire altro
 # scrivi un po quello che te pare
-bio: "Hi my name is Federico, i've born in october 11, 1997.
-     I love football and tech, i speak Italian, English and French.
-     I will study also russian."
+bio: "Hi my name is Federico, i love football,tech and videogames.
+	I speak Italian, English and French."
 
 residence: Rome
 
@@ -38,6 +37,9 @@ knowledges:
     , Coding
     , Web developer
     , Problem-Solving
+    , Forensic
+    , OSINT
+    , Reverse
     ]
 # queste so le skill co la barra
 # percentage va da 5 a 100 con scala 5
@@ -49,10 +51,10 @@ skills: [
           , percentage: 75
           },
 	        { name: Asm/C/C++
-          , percentage: 70
+          , percentage: 80
           },
 	        { name: Web technologies
-          , percentage: 75
+          , percentage: 95
           },
           { name: Linux
           , percentage: 80
@@ -60,8 +62,14 @@ skills: [
 	        { name: Scala
           , percentage: 90
           },
-	        { name: Hardware
-          , percentage: 85
+	        { name: OSINT
+          , percentage: 90
+          },
+	       { name: Forensic
+          , percentage: 90
+          },
+	       { name: Web
+          , percentage: 75
           },
         ]
 
